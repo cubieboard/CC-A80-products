@@ -1,0 +1,2 @@
+KERNEL=="sd[a-z][0-9]",SUBSYSTEM=="block",ACTION=="remove", RUN+="/bin/cubie-umount.sh %k"  
+KERNEL=="mmcblk1p[0-9]",ACTION=="remove", RUN+="/bin/cubie-umount.sh %k"  

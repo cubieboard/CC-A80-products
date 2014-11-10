@@ -1,0 +1,33 @@
+#!/bin/sh
+
+tf_card=/dev/mmcblk0
+
+repartition()
+{
+	touch /root/resizefs
+    echo "
+d
+2
+n
+p
+2
+65536
+
+p
+w
+q
+" | fdisk ${tf_card} > /dev/null
+}
+
+if [ -f /root/resizefs ]; then
+	/sbin/resize2fs ${tf_card}p2
+	rm /root/resizefs
+fi
+
+if [ -f /root/firstrun ]; then
+	echo firstup setup begin
+	repartition
+	rm /root/firstrun
+	echo firstup setup done
+	reboot
+fi
