@@ -1,0 +1,12 @@
+#!/bin/sh
+
+
+if [ -f /root/firstrun ]; then
+	echo firstup setup begin
+	insmod /lib/modules/3.4.39/extra/dc_drmfbdev.ko
+	insmod /lib/modules/3.4.39/extra/pvrsrvkm.ko
+	depmod
+	rm /root/firstrun
+	echo firstup setup done
+	reboot
+fi

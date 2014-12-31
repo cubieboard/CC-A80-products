@@ -2,7 +2,8 @@
 
 
 mkdir -p /media/$1
-/bin/mount /dev/$1 /media/$1
+/bin/mount -o uid=1000,gid=1000 /dev/$1 /media/$1
+
 
 if [ $? != 0 ]; then
 

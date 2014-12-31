@@ -39,3 +39,9 @@ case "$1" in
         exit 3
         ;;
 esac
+
+echo 2500000 > /sys/devices/platform/reg-22-cs-gpio1ldo/max_microvolts
+echo 2500000 > /sys/devices/platform/reg-22-cs-gpio1ldo/min_microvolts
+echo 3000000 > /sys/devices/platform/reg-15-cs-cldo1/max_microvolts
+echo 3000000 > /sys/devices/platform/reg-15-cs-cldo1/min_microvolts 
+modprobe sunxi_gmac 

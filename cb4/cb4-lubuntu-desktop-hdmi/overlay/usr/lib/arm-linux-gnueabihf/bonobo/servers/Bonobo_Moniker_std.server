@@ -1,0 +1,736 @@
+<oaf_info>
+
+<oaf_server ubuntu-gettext-domain="icecream" iid="OAFIID:Bonobo_Moniker_std_Factory"
+	type="shlib" location="/usr/lib/arm-linux-gnueabihf/bonobo/monikers/libmoniker_std_2">
+	<oaf_attribute name="repo_ids" type="stringv">
+		<item value="IDL:Bonobo/GenericFactory:1.0"/>
+	</oaf_attribute>
+
+	<oaf_attribute name="name" type="string" value="Standard Moniker factory"/>
+	<oaf_attribute name="name-ar" type="string" value="مصنع Moniker القياسي"/>
+	<oaf_attribute name="name-as" type="string" value="প্ৰমিত Moniker ফ্যাক্টৰি"/>
+	<oaf_attribute name="name-ast" type="string" value="Fábrica de moniker estándar"/>
+	<oaf_attribute name="name-az" type="string" value="Standard Moniker e&apos;malatxanası"/>
+	<oaf_attribute name="name-be" type="string" value="Стандартная вытворчасьць мянушкі (moniker)"/>
+	<oaf_attribute name="name-bg" type="string" value="Стандартна фабрика за моникъри"/>
+	<oaf_attribute name="name-bn" type="string" value="আদর্শ মনিকার ফ্যাক্টরি"/>
+	<oaf_attribute name="name-bn_IN" type="string" value="প্রমিত Moniker ফ্যাক্টরি"/>
+	<oaf_attribute name="name-br" type="string" value="Stal Standard Moniker"/>
+	<oaf_attribute name="name-bs" type="string" value="Standardna Moniker tvornica"/>
+	<oaf_attribute name="name-ca" type="string" value="Fàbrica de sobrenoms estàndard"/>
+	<oaf_attribute name="name-ca@valencia" type="string" value="Fàbrica de sobrenoms estàndard"/>
+	<oaf_attribute name="name-cs" type="string" value="Standardní generátor monikeru"/>
+	<oaf_attribute name="name-cy" type="string" value="Ffatri Moniker safonol"/>
+	<oaf_attribute name="name-da" type="string" value="Fabrik til standardprotokolhåndtering"/>
+	<oaf_attribute name="name-de" type="string" value="Standard-Moniker-Fabrik"/>
+	<oaf_attribute name="name-dz" type="string" value="ཚད་ལྡན་མོ་ནི་ཀར་འཕྲུལ་ཁང༌།"/>
+	<oaf_attribute name="name-el" type="string" value="Γενικό εργοστάσιο απλουστ. ονόματος"/>
+	<oaf_attribute name="name-en@shaw" type="string" value="𐑕𐑑𐑨𐑯𐑛𐑼𐑛 𐑥𐑪𐑯𐑦𐑒𐑼 𐑓𐑨𐑒𐑑𐑼𐑦"/>
+	<oaf_attribute name="name-en_CA" type="string" value="Standard Moniker factory"/>
+	<oaf_attribute name="name-en_GB" type="string" value="Standard Moniker factory"/>
+	<oaf_attribute name="name-eo" type="string" value="Normala Moniker-fabrikejo"/>
+	<oaf_attribute name="name-es" type="string" value="Fábrica de moniker estándar"/>
+	<oaf_attribute name="name-et" type="string" value="Standard Moniker factory"/>
+	<oaf_attribute name="name-eu" type="string" value="Moniker estandarraren fabrika"/>
+	<oaf_attribute name="name-fi" type="string" value="Tavallisten Monikereiden tehdas"/>
+	<oaf_attribute name="name-fr" type="string" value="Fabrique du Moniker standard"/>
+	<oaf_attribute name="name-gl" type="string" value="Factoría de moniker estándar"/>
+	<oaf_attribute name="name-gu" type="string" value="પ્રમાણભૂત મોનિકર કારખાનું"/>
+	<oaf_attribute name="name-he" type="string" value="Standard Moniker factory"/>
+	<oaf_attribute name="name-hi" type="string" value="मानक मॉनीकर फैक्ट्री"/>
+	<oaf_attribute name="name-hr" type="string" value="Standardna Moniker tvornica"/>
+	<oaf_attribute name="name-hu" type="string" value="Szabványos Moniker factory"/>
+	<oaf_attribute name="name-hy" type="string" value="Ստանդարտ Moniker ֆաբրիկա"/>
+	<oaf_attribute name="name-id" type="string" value="Pabrik Moniker Standar"/>
+	<oaf_attribute name="name-is" type="string" value="Stöðluð Moniker verksmiðja"/>
+	<oaf_attribute name="name-it" type="string" value="Factory standard per Moniker"/>
+	<oaf_attribute name="name-ja" type="string" value="標準モニカのファクトリ"/>
+	<oaf_attribute name="name-ka" type="string" value="სტანდარტული მონიკერის საწარმო"/>
+	<oaf_attribute name="name-kn" type="string" value="ಮಾನಕ Moniker ಫ್ಯಾಕ್ಟರಿ"/>
+	<oaf_attribute name="name-ko" type="string" value="표준 모니커 팩토리"/>
+	<oaf_attribute name="name-li" type="string" value="Sjtanderd Moniker factory"/>
+	<oaf_attribute name="name-lt" type="string" value="Standartinė trumpų vardų gamykla"/>
+	<oaf_attribute name="name-lv" type="string" value="Standarta Moniker ražotne"/>
+	<oaf_attribute name="name-mai" type="string" value="मानक मोनीकर फैक्ट्री"/>
+	<oaf_attribute name="name-mg" type="string" value="Toerana fanamboarana anarana tsotra"/>
+	<oaf_attribute name="name-mk" type="string" value="Стандардна фабрика за моникер"/>
+	<oaf_attribute name="name-ml" type="string" value="നിലവാരമുളള Moniker ശാല"/>
+	<oaf_attribute name="name-mn" type="string" value="Стандарт Moniker үйлдвэр"/>
+	<oaf_attribute name="name-mr" type="string" value="मानक मॉनीकर फॅक्ट्री"/>
+	<oaf_attribute name="name-ms" type="string" value="Kilang Moniker piawai"/>
+	<oaf_attribute name="name-nb" type="string" value="Standard moniker factory"/>
+	<oaf_attribute name="name-ne" type="string" value="मानक मोनिकर कारखाना"/>
+	<oaf_attribute name="name-nl" type="string" value="Standaard Moniker factory"/>
+	<oaf_attribute name="name-nn" type="string" value="Standard moniker-fabrikk"/>
+	<oaf_attribute name="name-or" type="string" value="ସାଧାରଣ ନାମ କାରଖାନା"/>
+	<oaf_attribute name="name-pa" type="string" value="ਮਿਆਰੀ ਮਾਨੀਕਰ ਫੈਕਟਰੀ"/>
+	<oaf_attribute name="name-pl" type="string" value="Generator standardowego monikera"/>
+	<oaf_attribute name="name-pt" type="string" value="Fábrica Moniker padrão"/>
+	<oaf_attribute name="name-pt_BR" type="string" value="Fábrica de moniker padrão"/>
+	<oaf_attribute name="name-ro" type="string" value="Fabrică Moniker standard"/>
+	<oaf_attribute name="name-ru" type="string" value="Фабрика стандартного моникера"/>
+	<oaf_attribute name="name-sk" type="string" value="Štandardná továreň monikera"/>
+	<oaf_attribute name="name-sl" type="string" value="Običajna tovarna vzdevkov"/>
+	<oaf_attribute name="name-sq" type="string" value="Fabrikë për Moniker standart"/>
+	<oaf_attribute name="name-sr" type="string" value="Стандардна творница надимака"/>
+	<oaf_attribute name="name-sr@latin" type="string" value="Standardna tvornica nadimaka"/>
+	<oaf_attribute name="name-sv" type="string" value="Standardmonikerfabrik"/>
+	<oaf_attribute name="name-ta" type="string" value="செந்தர Moniker தொழிற்சாலை"/>
+	<oaf_attribute name="name-te" type="string" value="ప్రామాణిక మానికర్ ఫాక్టరి"/>
+	<oaf_attribute name="name-th" type="string" value="โรงงานมอนิเกอร์มาตรฐาน"/>
+	<oaf_attribute name="name-tr" type="string" value="Moniker Fabrika standardı"/>
+	<oaf_attribute name="name-ug" type="string" value="ئۆلچەملىك Moniker زاۋۇتى"/>
+	<oaf_attribute name="name-uk" type="string" value="Фабрика стандартних монікерів"/>
+	<oaf_attribute name="name-vi" type="string" value="Bộ tạo Moniker chuẩn"/>
+	<oaf_attribute name="name-xh" type="string" value="Ifektri ye-Moniker eqhelekileyo"/>
+	<oaf_attribute name="name-yi" type="string" value="סטאַנדאַרדע צונעמעניש־פֿאַבריק"/>
+	<oaf_attribute name="name-zh_CN" type="string" value="标准 Moniker 车间"/>
+	<oaf_attribute name="name-zh_HK" type="string" value="標準命名器元件工廠"/>
+	<oaf_attribute name="name-zh_TW" type="string" value="標準命名器元件工廠"/>
+</oaf_server>
+
+<oaf_server ubuntu-gettext-domain="icecream" iid="OAFIID:Bonobo_Moniker_Item" type="factory"
+	location="OAFIID:Bonobo_Moniker_std_Factory">
+	<oaf_attribute name="repo_ids" type="stringv">
+		<item value="IDL:Bonobo/Moniker:1.0"/>
+		<item value="IDL:Bonobo/Unknown:1.0"/>
+	</oaf_attribute>
+	<oaf_attribute name="name" type="string" value="generic item moniker"/>
+	<oaf_attribute name="name-ar" type="string" value="moniker عنصر عام"/>
+	<oaf_attribute name="name-as" type="string" value="সাধাৰণ বস্তুৰ moniker"/>
+	<oaf_attribute name="name-ast" type="string" value="Ítem de moniker xenéricu"/>
+	<oaf_attribute name="name-az" type="string" value="sıravi üzv monikeri"/>
+	<oaf_attribute name="name-be" type="string" value="асноўны запіс мянушкі (moniker)"/>
+	<oaf_attribute name="name-bg" type="string" value="стандартен моникър"/>
+	<oaf_attribute name="name-bn" type="string" value="সামগ্রিক আইটেম মনিকার"/>
+	<oaf_attribute name="name-bn_IN" type="string" value="সাধারণ বস্তুর moniker"/>
+	<oaf_attribute name="name-br" type="string" value="moniker elfenn jenerik"/>
+	<oaf_attribute name="name-bs" type="string" value="generički moniker za stavke"/>
+	<oaf_attribute name="name-ca" type="string" value="sobrenom genèric d&apos;element"/>
+	<oaf_attribute name="name-ca@valencia" type="string" value="sobrenom genèric d&apos;element"/>
+	<oaf_attribute name="name-cs" type="string" value="obecný moniker pro položky"/>
+	<oaf_attribute name="name-cy" type="string" value="moniker eitem generig"/>
+	<oaf_attribute name="name-da" type="string" value="generel elementprotokolhåndtering"/>
+	<oaf_attribute name="name-de" type="string" value="allgemeiner Objekt-Moniker"/>
+	<oaf_attribute name="name-dz" type="string" value="ཇེ་ནི་རིཀ་རྣམ་གྲངས་ཀྱི་ མོ་ནི་ཀར།"/>
+	<oaf_attribute name="name-el" type="string" value="γενικό απλουστ. όνομα στοιχείου"/>
+	<oaf_attribute name="name-en@shaw" type="string" value="𐑡𐑩𐑯𐑧𐑮𐑦𐑒 𐑲𐑑𐑩𐑥 𐑥𐑪𐑯𐑦𐑒𐑼"/>
+	<oaf_attribute name="name-en_CA" type="string" value="generic item moniker"/>
+	<oaf_attribute name="name-en_GB" type="string" value="generic item moniker"/>
+	<oaf_attribute name="name-eo" type="string" value="moniker-o de ĝenerala ero"/>
+	<oaf_attribute name="name-es" type="string" value="Ítem de moniker genérico"/>
+	<oaf_attribute name="name-et" type="string" value="üldise kirje moniker"/>
+	<oaf_attribute name="name-eu" type="string" value="elementu generikoaren monikerra"/>
+	<oaf_attribute name="name-fi" type="string" value="yleinen kohdemoniker"/>
+	<oaf_attribute name="name-fr" type="string" value="moniker d&apos;élément générique"/>
+	<oaf_attribute name="name-gl" type="string" value="moniker de elemento xenérico"/>
+	<oaf_attribute name="name-gu" type="string" value="સામાન્ય વસ્તુ મોનિકર"/>
+	<oaf_attribute name="name-he" type="string" value="generic item moniker"/>
+	<oaf_attribute name="name-hi" type="string" value="ज़ेनेरिक आइटम मॉनिकर"/>
+	<oaf_attribute name="name-hr" type="string" value="generička stavka moniker-a"/>
+	<oaf_attribute name="name-hu" type="string" value="általános elem moniker"/>
+	<oaf_attribute name="name-hy" type="string" value="Տարրի ընդհանուր մոնիկեր"/>
+	<oaf_attribute name="name-id" type="string" value="butir moniker generik"/>
+	<oaf_attribute name="name-is" type="string" value="almennur hluta-moniker"/>
+	<oaf_attribute name="name-it" type="string" value="moniker genericop per oggetti"/>
+	<oaf_attribute name="name-ja" type="string" value="アイテム汎用モニカ"/>
+	<oaf_attribute name="name-ka" type="string" value="ელემენტის საზოგადო მონიკერი"/>
+	<oaf_attribute name="name-kn" type="string" value="ಸಾಮಾನ್ಯ ಅಂಶ moniker"/>
+	<oaf_attribute name="name-ko" type="string" value="일반 아이템 모니커"/>
+	<oaf_attribute name="name-li" type="string" value="generieke itemmoniker"/>
+	<oaf_attribute name="name-lt" type="string" value="bendrinis elemento vardas"/>
+	<oaf_attribute name="name-lv" type="string" value="parasts priekšmets moniker"/>
+	<oaf_attribute name="name-mai" type="string" value="जेनेरिक आइटम मोनिकर"/>
+	<oaf_attribute name="name-mg" type="string" value="anaran-tsinga iraisana"/>
+	<oaf_attribute name="name-mk" type="string" value="моникер за општи предмети"/>
+	<oaf_attribute name="name-ml" type="string" value="ജനറിക്ക് ഐറ്റം moniker"/>
+	<oaf_attribute name="name-mn" type="string" value="Ерөнхий элемент moniker"/>
+	<oaf_attribute name="name-mr" type="string" value="मुळ घटक मॉनीकर"/>
+	<oaf_attribute name="name-ms" type="string" value="moniker item generik"/>
+	<oaf_attribute name="name-nb" type="string" value="vanlig oppføringsmoniker"/>
+	<oaf_attribute name="name-ne" type="string" value="जेनेरिक सामाग्री मोनिकर"/>
+	<oaf_attribute name="name-nl" type="string" value="generieke itemmoniker"/>
+	<oaf_attribute name="name-nn" type="string" value="vanleg oppørings moniker"/>
+	<oaf_attribute name="name-or" type="string" value="ସାଧାରଣ ବସ୍ତୁ ନାମ"/>
+	<oaf_attribute name="name-pa" type="string" value="ਸਧਾਰਨ ਇਕਾਈ ਮਾਨੀਕਰ"/>
+	<oaf_attribute name="name-pl" type="string" value="ogólny moniker elementu"/>
+	<oaf_attribute name="name-pt" type="string" value="moniker de item genérico"/>
+	<oaf_attribute name="name-pt_BR" type="string" value="moniker de item genérico"/>
+	<oaf_attribute name="name-ro" type="string" value="Moniker de item generic"/>
+	<oaf_attribute name="name-ru" type="string" value="общий моникер элемента"/>
+	<oaf_attribute name="name-sk" type="string" value="všeobecný moniker položiek"/>
+	<oaf_attribute name="name-sl" type="string" value="prvotni vzdevek predmetov"/>
+	<oaf_attribute name="name-sq" type="string" value="moniker i përgjithshëm për objektet"/>
+	<oaf_attribute name="name-sr" type="string" value="општи надимак за ставке"/>
+	<oaf_attribute name="name-sr@latin" type="string" value="opšti nadimak za stavke"/>
+	<oaf_attribute name="name-sv" type="string" value="allmän objektmoniker"/>
+	<oaf_attribute name="name-ta" type="string" value="வடிவியல் உருப்படி moniker"/>
+	<oaf_attribute name="name-te" type="string" value="సాదారణ అంశపు మానికర్"/>
+	<oaf_attribute name="name-th" type="string" value="มอนิเกอร์ทั่วไปสำหรับ item"/>
+	<oaf_attribute name="name-tr" type="string" value="Moniker genel öğesi"/>
+	<oaf_attribute name="name-ug" type="string" value="ئادەتتىكى تۈر moniker ئى"/>
+	<oaf_attribute name="name-uk" type="string" value="Загальний монікер елемента"/>
+	<oaf_attribute name="name-vi" type="string" value="moniker mục chung"/>
+	<oaf_attribute name="name-xh" type="string" value="i-moniker yento yohlobo oluthile"/>
+	<oaf_attribute name="name-yi" type="string" value="אַלגעמײנער אײנס צונעמעניש"/>
+	<oaf_attribute name="name-zh_CN" type="string" value="通用项目 moniker"/>
+	<oaf_attribute name="name-zh_HK" type="string" value="一般的項目命名器"/>
+	<oaf_attribute name="name-zh_TW" type="string" value="一般的項目命名器"/>
+	<oaf_attribute name="bonobo:moniker" type="stringv">
+		<item value="!"/>
+	</oaf_attribute>
+</oaf_server>
+
+<oaf_server ubuntu-gettext-domain="icecream" iid="OAFIID:Bonobo_Moniker_IOR" type="factory"
+	location="OAFIID:Bonobo_Moniker_std_Factory">
+	<oaf_attribute name="repo_ids" type="stringv">
+		<item value="IDL:Bonobo/Moniker:1.0"/>
+		<item value="IDL:Bonobo/Unknown:1.0"/>
+	</oaf_attribute>
+	<oaf_attribute name="name" type="string" value="ORB IOR handling moniker"/>
+	<oaf_attribute name="name-ar" type="string" value="moniker معالجة ORB IOR"/>
+	<oaf_attribute name="name-as" type="string" value="ORB IOR ব্যৱস্থাকাৰী moniker"/>
+	<oaf_attribute name="name-ast" type="string" value="moniker pal remanamientu de ORB IOR"/>
+	<oaf_attribute name="name-az" type="string" value="ORB IOR dəstək monikeri"/>
+	<oaf_attribute name="name-be" type="string" value="Мянушка (moniker) апрацоўкі ORB IOR"/>
+	<oaf_attribute name="name-bg" type="string" value="Моникър за обработка на ORB IOR"/>
+	<oaf_attribute name="name-bn" type="string" value="ORB IOR দ্বারা চালিত মনিকার"/>
+	<oaf_attribute name="name-bn_IN" type="string" value="ORB IOR ব্যবস্থাকারী moniker"/>
+	<oaf_attribute name="name-br" type="string" value="ORB IOR a ra war dro moniker"/>
+	<oaf_attribute name="name-bs" type="string" value="moniker za rukovanje sa ORB IOR"/>
+	<oaf_attribute name="name-ca" type="string" value="Sobrenom del gestor de l&apos;IOR de l&apos;ORB"/>
+	<oaf_attribute name="name-ca@valencia" type="string" value="Sobrenom del gestor de l&apos;IOR de l&apos;ORB"/>
+	<oaf_attribute name="name-cs" type="string" value="Moniker zpracovávající ORB IOR"/>
+	<oaf_attribute name="name-cy" type="string" value="moniker trin IOR ORB"/>
+	<oaf_attribute name="name-da" type="string" value="ORB IOR-protokolhåndtering"/>
+	<oaf_attribute name="name-de" type="string" value="ORB-IOR-Handling-Moniker"/>
+	<oaf_attribute name="name-dz" type="string" value="ཨོ་ཨར་བི་ ཨའི་ཨོ་ཨར་ ལེགས་སྐྱོང་འཐབ་ནིའི་ མོ་ནི་ཀར།"/>
+	<oaf_attribute name="name-el" type="string" value="απλουστ. όνομα χειρισμού ORB IOR"/>
+	<oaf_attribute name="name-en_CA" type="string" value="ORB IOR handling moniker"/>
+	<oaf_attribute name="name-en_GB" type="string" value="ORB IOR handling moniker"/>
+	<oaf_attribute name="name-eo" type="string" value="moniker-o de ORB-IOR-traktado"/>
+	<oaf_attribute name="name-es" type="string" value="moniker para el manejo de ORB IOR"/>
+	<oaf_attribute name="name-et" type="string" value="ORB IOR käsitlemise moniker"/>
+	<oaf_attribute name="name-eu" type="string" value="ORB IOR kudeatzeko monikerra"/>
+	<oaf_attribute name="name-fi" type="string" value="ORB IOR -käsittelijämoniker"/>
+	<oaf_attribute name="name-fr" type="string" value="Moniker de gestion des ORB IOR"/>
+	<oaf_attribute name="name-gl" type="string" value="Moniker de manipulación ORB IOR"/>
+	<oaf_attribute name="name-gu" type="string" value="ORB IOR ને સંભાળતું મોનિકર"/>
+	<oaf_attribute name="name-he" type="string" value="ORB IOR handling moniker"/>
+	<oaf_attribute name="name-hi" type="string" value="ओआरबी आईओआर हैंडलिंग मॉनिकर"/>
+	<oaf_attribute name="name-hr" type="string" value="Moniker za rukovanje ORB IOR-pm"/>
+	<oaf_attribute name="name-hu" type="string" value="ORB IOR kezelő moniker"/>
+	<oaf_attribute name="name-hy" type="string" value="ORB IOR մշակման մոնիկեր"/>
+	<oaf_attribute name="name-id" type="string" value="Moniker untuk menangani ORB IOR"/>
+	<oaf_attribute name="name-is" type="string" value="ORB IOR meðhöndlunar-moniker"/>
+	<oaf_attribute name="name-it" type="string" value="moniker di gestione IOR ORB"/>
+	<oaf_attribute name="name-ja" type="string" value="ORB IRO 操作モニカ"/>
+	<oaf_attribute name="name-ka" type="string" value="ORB IOR დამუშავების მონიკერი"/>
+	<oaf_attribute name="name-kn" type="string" value="ORB IOR ನಿಭಾಯಿಸುವ moniker"/>
+	<oaf_attribute name="name-ko" type="string" value="ORB IOR 처리 모니커"/>
+	<oaf_attribute name="name-li" type="string" value="ORB IOR verwirkende moniker"/>
+	<oaf_attribute name="name-lt" type="string" value="ORB IOR valdymo vardas"/>
+	<oaf_attribute name="name-lv" type="string" value="ORB IOR pārvaldošs moniker"/>
+	<oaf_attribute name="name-mai" type="string" value="ओआरबी आईओआर नियंत्रक मोनिकर"/>
+	<oaf_attribute name="name-mg" type="string" value="ORB IOR mifehy ilay anarana"/>
+	<oaf_attribute name="name-mk" type="string" value="Моникер за ракување со ORB IOR"/>
+	<oaf_attribute name="name-ml" type="string" value="ORB IOR കൈകാര്യം ചെയ്യുന്ന moniker"/>
+	<oaf_attribute name="name-mn" type="string" value="ORB IOR-handling-Moniker"/>
+	<oaf_attribute name="name-mr" type="string" value="ORB IOR मॉनीकर हाताळत आहे"/>
+	<oaf_attribute name="name-ms" type="string" value="Moniker pengendali ORM IOR"/>
+	<oaf_attribute name="name-nb" type="string" value="Moniker for ORB IOR-håndtering"/>
+	<oaf_attribute name="name-ne" type="string" value="ORB IOR ह्यान्डलिङ मोनिकर"/>
+	<oaf_attribute name="name-nl" type="string" value="ORB IOR verwerkende moniker"/>
+	<oaf_attribute name="name-nn" type="string" value="moniker som helt styr på ORB IOR"/>
+	<oaf_attribute name="name-or" type="string" value="ଓ.ଆର.ବି. ଆି.ଓ.ଆର. ଚାଳନା ନାମ"/>
+	<oaf_attribute name="name-pa" type="string" value="ORB IOR ਹੈਂਡਲਿੰਗ ਮਾਨੀਕਰ"/>
+	<oaf_attribute name="name-pl" type="string" value="Moniker obsługujący ORB IOR"/>
+	<oaf_attribute name="name-pt" type="string" value="Moniker de gestão ORB IOR"/>
+	<oaf_attribute name="name-pt_BR" type="string" value="Moniker de tratamento de IOR ORB"/>
+	<oaf_attribute name="name-ro" type="string" value="Moniker de gestiune ORB IOR"/>
+	<oaf_attribute name="name-ru" type="string" value="Моникер обработки ORB IOR"/>
+	<oaf_attribute name="name-sk" type="string" value="ORB IOR ovládací moniker"/>
+	<oaf_attribute name="name-sl" type="string" value="Vzdevek obravnavanja IOR ORB"/>
+	<oaf_attribute name="name-sq" type="string" value="Moniker i trajtuesit IOR ORB"/>
+	<oaf_attribute name="name-sr" type="string" value="Надимак за руковање са ORB IOR"/>
+	<oaf_attribute name="name-sr@latin" type="string" value="Nadimak za rukovanje sa ORB IOR"/>
+	<oaf_attribute name="name-sv" type="string" value="ORB-IOR-hanteringsmoniker"/>
+	<oaf_attribute name="name-ta" type="string" value="ORB IOR handling moniker"/>
+	<oaf_attribute name="name-te" type="string" value="ORB IOR సంభాలిక మానికర్"/>
+	<oaf_attribute name="name-th" type="string" value="มอนิเกอร์จัดการ IOR ของ ORB"/>
+	<oaf_attribute name="name-tr" type="string" value="Moniker ORB IOR tutuşu"/>
+	<oaf_attribute name="name-ug" type="string" value="ORB IOR باشقۇرۇش moniker ئى"/>
+	<oaf_attribute name="name-uk" type="string" value="Монікер обробки ORB IOR"/>
+	<oaf_attribute name="name-vi" type="string" value="Moniker xử lý ORB IOR"/>
+	<oaf_attribute name="name-xh" type="string" value="I-moniker ephathaphatha i-ORB IOR"/>
+	<oaf_attribute name="name-yi" type="string" value="ORB IOR באַהאַנדלונג צונעמעניש"/>
+	<oaf_attribute name="name-zh_CN" type="string" value="ORB IOR 处理 moniker"/>
+	<oaf_attribute name="name-zh_HK" type="string" value="ORB IOR 命名器處理"/>
+	<oaf_attribute name="name-zh_TW" type="string" value="ORB IOR 命名器處理"/>
+	<oaf_attribute name="bonobo:moniker" type="stringv">
+		<item value="IOR"/>
+	</oaf_attribute>
+</oaf_server>
+
+<oaf_server ubuntu-gettext-domain="icecream" iid="OAFIID:Bonobo_Moniker_Cache" type="factory"
+	location="OAFIID:Bonobo_Moniker_std_Factory">
+	<oaf_attribute name="repo_ids" type="stringv">
+		<item value="IDL:Bonobo/Moniker:1.0"/>
+		<item value="IDL:Bonobo/Unknown:1.0"/>
+	</oaf_attribute>
+	<oaf_attribute name="name" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-ar" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-as" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-ast" type="string" value="Moniker HTTP"/>
+	<oaf_attribute name="name-az" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-be" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-bg" type="string" value="Моникър за HTTP"/>
+	<oaf_attribute name="name-bn" type="string" value="HTTP মনিকার"/>
+	<oaf_attribute name="name-bn_IN" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-br" type="string" value="Moniker HTTP"/>
+	<oaf_attribute name="name-bs" type="string" value="HTTP moniker"/>
+	<oaf_attribute name="name-ca" type="string" value="Sobrenom HTTP"/>
+	<oaf_attribute name="name-ca@valencia" type="string" value="Sobrenom HTTP"/>
+	<oaf_attribute name="name-cs" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-cy" type="string" value="Moniker HTTP"/>
+	<oaf_attribute name="name-da" type="string" value="HTTP-protokolhåndtering"/>
+	<oaf_attribute name="name-de" type="string" value="HTTP-Moniker"/>
+	<oaf_attribute name="name-dz" type="string" value="ཨེཆ་ཊི་ཊི་པི་ མོ་ནི་ཀར།"/>
+	<oaf_attribute name="name-el" type="string" value="Απλουστ. όνομα HTTP"/>
+	<oaf_attribute name="name-en@shaw" type="string" value="HTTP 𐑥𐑪𐑯𐑦𐑒𐑼"/>
+	<oaf_attribute name="name-en_CA" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-en_GB" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-eo" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-es" type="string" value="Moniker HTTP"/>
+	<oaf_attribute name="name-et" type="string" value="HTTP-Moniker"/>
+	<oaf_attribute name="name-eu" type="string" value="HTTP Monikerra"/>
+	<oaf_attribute name="name-fi" type="string" value="HTTP-moniker"/>
+	<oaf_attribute name="name-fr" type="string" value="Moniker HTTP"/>
+	<oaf_attribute name="name-gl" type="string" value="Moniker HTTP"/>
+	<oaf_attribute name="name-gu" type="string" value="HTTP મોનિકર"/>
+	<oaf_attribute name="name-he" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-hi" type="string" value="एचटीटीपी मॉनिकर"/>
+	<oaf_attribute name="name-hr" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-hu" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-hy" type="string" value="HTTP մոնիկեր"/>
+	<oaf_attribute name="name-id" type="string" value="Moniker HTTP"/>
+	<oaf_attribute name="name-is" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-it" type="string" value="Moniker HTTP"/>
+	<oaf_attribute name="name-ja" type="string" value="HTTP モニカ"/>
+	<oaf_attribute name="name-ka" type="string" value="HTTP მონიკერი"/>
+	<oaf_attribute name="name-kn" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-ko" type="string" value="HTTP 모니커"/>
+	<oaf_attribute name="name-li" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-lt" type="string" value="HTTP trumpas vardas"/>
+	<oaf_attribute name="name-lv" type="string" value="HTTP moniker"/>
+	<oaf_attribute name="name-mai" type="string" value="एचटीटीपी मोनिकर"/>
+	<oaf_attribute name="name-mg" type="string" value="Anarana HTTP"/>
+	<oaf_attribute name="name-mk" type="string" value="HTTP моникер"/>
+	<oaf_attribute name="name-ml" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-mn" type="string" value="HTTP-Moniker"/>
+	<oaf_attribute name="name-mr" type="string" value="HTTP मॉनीकर"/>
+	<oaf_attribute name="name-ms" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-nb" type="string" value="HTTP-moniker"/>
+	<oaf_attribute name="name-ne" type="string" value="एचटीटीपी मोनिकर"/>
+	<oaf_attribute name="name-nl" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-nn" type="string" value="HTTP-moniker"/>
+	<oaf_attribute name="name-or" type="string" value="ଏଚ.ଟି.ଟି.ପି. ନାମ"/>
+	<oaf_attribute name="name-pa" type="string" value="HTTP ਮਾਨੀਕਰ"/>
+	<oaf_attribute name="name-pl" type="string" value="Moniker HTTP"/>
+	<oaf_attribute name="name-pt" type="string" value="Moniker HTTP"/>
+	<oaf_attribute name="name-pt_BR" type="string" value="Moniker HTTP"/>
+	<oaf_attribute name="name-ro" type="string" value="Moniker HTTP"/>
+	<oaf_attribute name="name-ru" type="string" value="Моникер HTTP"/>
+	<oaf_attribute name="name-sk" type="string" value="HTTP moniker"/>
+	<oaf_attribute name="name-sl" type="string" value="Vzdevek HTTP"/>
+	<oaf_attribute name="name-sq" type="string" value="Moniker HTTP"/>
+	<oaf_attribute name="name-sr" type="string" value="HTTP надимак"/>
+	<oaf_attribute name="name-sr@latin" type="string" value="HTTP nadimak"/>
+	<oaf_attribute name="name-sv" type="string" value="HTTP-moniker"/>
+	<oaf_attribute name="name-ta" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-te" type="string" value="HTTP మానికర్"/>
+	<oaf_attribute name="name-th" type="string" value="มอนิเกอร์ HTTP"/>
+	<oaf_attribute name="name-tr" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-ug" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-uk" type="string" value="Монікер HTTP"/>
+	<oaf_attribute name="name-vi" type="string" value="Moniker HTTP"/>
+	<oaf_attribute name="name-xh" type="string" value="I-HTTP Moniker"/>
+	<oaf_attribute name="name-yi" type="string" value="HTTP צונעמעניש"/>
+	<oaf_attribute name="name-zh_CN" type="string" value="HTTP Moniker"/>
+	<oaf_attribute name="name-zh_HK" type="string" value="HTTP 命名器"/>
+	<oaf_attribute name="name-zh_TW" type="string" value="HTTP 命名器"/>
+	<oaf_attribute name="bonobo:moniker" type="stringv">
+		<item value="cache:"/>
+	</oaf_attribute>
+</oaf_server>
+
+<oaf_server ubuntu-gettext-domain="icecream" iid="OAFIID:Bonobo_Moniker_Oaf" type="factory"
+	location="OAFIID:Bonobo_Moniker_std_Factory">
+	<oaf_attribute name="repo_ids" type="stringv">
+		<item value="IDL:Bonobo/Moniker:1.0"/>
+		<item value="IDL:Bonobo/Unknown:1.0"/>
+	</oaf_attribute>
+	<oaf_attribute name="name" type="string" value="generic Oaf activation moniker"/>
+	<oaf_attribute name="name-ar" type="string" value="moniker عام لتفعيل Oaf"/>
+	<oaf_attribute name="name-as" type="string" value="সাধাৰণ Oaf সক্ৰিয়কাৰী moniker"/>
+	<oaf_attribute name="name-ast" type="string" value="moniker xenéricu d&apos;activación de OAF"/>
+	<oaf_attribute name="name-az" type="string" value="sıravi Oaf fəallaşdırma monikeri"/>
+	<oaf_attribute name="name-be" type="string" value="асноўная актывацыя Oaf мянушкі (moniker)"/>
+	<oaf_attribute name="name-bg" type="string" value="стандартен моникър за активирането на Oaf"/>
+	<oaf_attribute name="name-bn" type="string" value="সামগ্রিক Oaf সক্রিয়করণ মনিকার"/>
+	<oaf_attribute name="name-bn_IN" type="string" value="সাধারণ Oaf সক্রিয়কারী moniker"/>
+	<oaf_attribute name="name-br" type="string" value="loc&apos;han Oaf moniker generik"/>
+	<oaf_attribute name="name-bs" type="string" value="generički moniker za aktiviranje Oaf"/>
+	<oaf_attribute name="name-ca" type="string" value="sobrenom genèric d&apos;activació OAF"/>
+	<oaf_attribute name="name-ca@valencia" type="string" value="sobrenom genèric d&apos;activació OAF"/>
+	<oaf_attribute name="name-cs" type="string" value="obecný moniker pro aktivaci OAF"/>
+	<oaf_attribute name="name-cy" type="string" value="moniker gweithrediad Oaf generig"/>
+	<oaf_attribute name="name-da" type="string" value="generel aktiviseringsprotokolhåndtering til Oaf"/>
+	<oaf_attribute name="name-de" type="string" value="allgemeiner OAF-Aktivierungs-Moniker"/>
+	<oaf_attribute name="name-dz" type="string" value="ཇེ་ནི་རིཀ་ ཨོ་ཨེ་ཨེཕི་ ཤུགས་བཟོའི་མོ་ནི་ཀར།"/>
+	<oaf_attribute name="name-el" type="string" value="γενικό απλουστ. όνομα ενεργοποίησης Oaf"/>
+	<oaf_attribute name="name-en_CA" type="string" value="generic Oaf activation moniker"/>
+	<oaf_attribute name="name-en_GB" type="string" value="generic Oaf activation moniker"/>
+	<oaf_attribute name="name-eo" type="string" value="moniker-o de ĝenerala OAF-aktivigo"/>
+	<oaf_attribute name="name-es" type="string" value="moniker genérico de activación de OAF"/>
+	<oaf_attribute name="name-et" type="string" value="üldine Oaf-i aktiveerimismoniker"/>
+	<oaf_attribute name="name-eu" type="string" value="Oaf generikoaren aktibazio-monikerra"/>
+	<oaf_attribute name="name-fi" type="string" value="yleinen Oaf-aktivointimoniker"/>
+	<oaf_attribute name="name-fr" type="string" value="moniker d&apos;activation Oaf générique"/>
+	<oaf_attribute name="name-gl" type="string" value="moniker xenérico de activación OAF"/>
+	<oaf_attribute name="name-gu" type="string" value="સામાન્ય Oaf ક્રિયાશીલ મોનિકર"/>
+	<oaf_attribute name="name-he" type="string" value="generic Oaf activation moniker"/>
+	<oaf_attribute name="name-hi" type="string" value="ज़ेनेरिक ओएएफ़ सक्रियण मॉनिकर"/>
+	<oaf_attribute name="name-hr" type="string" value="Generički Oaf pokretački moniker"/>
+	<oaf_attribute name="name-hu" type="string" value="általános Oaf aktiváló moniker"/>
+	<oaf_attribute name="name-hy" type="string" value="Oaf ակտիվացման ընդհանուր մոնիկեր"/>
+	<oaf_attribute name="name-id" type="string" value="aktifasi moniker Oaf generik"/>
+	<oaf_attribute name="name-is" type="string" value="almennur Oaf virkjunar-moniker"/>
+	<oaf_attribute name="name-it" type="string" value="Moniker generico per l&apos;attivazione Oaf"/>
+	<oaf_attribute name="name-ja" type="string" value="Oaf 活性化汎用モニカ"/>
+	<oaf_attribute name="name-ka" type="string" value="Oaf აქტივაციის საზოგადო მონიკერი"/>
+	<oaf_attribute name="name-kn" type="string" value="ಸಾಮಾನ್ಯ Oaf ಸಕ್ರಿಯಗೊಳಿಕಾ moniker"/>
+	<oaf_attribute name="name-ko" type="string" value="일반 oaf 활성화 모니커"/>
+	<oaf_attribute name="name-li" type="string" value="generieke OAF aktiveringsmoniker"/>
+	<oaf_attribute name="name-lt" type="string" value="bendrinis Oaf aktyvavimo vardas"/>
+	<oaf_attribute name="name-lv" type="string" value="parasts Oaf aktivizācijas moniker"/>
+	<oaf_attribute name="name-mai" type="string" value="जेनेरिक ओएएफ़ सक्रियण मोनिकर"/>
+	<oaf_attribute name="name-mg" type="string" value="anarana fandefasana Oaf iraisana"/>
+	<oaf_attribute name="name-mk" type="string" value="општ моникер за активирање на Oaf"/>
+	<oaf_attribute name="name-ml" type="string" value="സാധാരണ Oaf പ്രവര്‍ത്ത moniker"/>
+	<oaf_attribute name="name-mn" type="string" value="Ерөнхий OAF-идэвхжүүлэлт moniker"/>
+	<oaf_attribute name="name-mr" type="string" value="मुळ Oaf सक्रीयता मॉनीकर"/>
+	<oaf_attribute name="name-ms" type="string" value="Moniker penjanaan Oaf generic"/>
+	<oaf_attribute name="name-nb" type="string" value="vanlig aktiviseringsmoniker for Oaf"/>
+	<oaf_attribute name="name-ne" type="string" value="जेनेरिक Oaf सक्रिय मोनिकर"/>
+	<oaf_attribute name="name-nl" type="string" value="generieke OAF activeringsmoniker"/>
+	<oaf_attribute name="name-nn" type="string" value="vanleg Oaf aktiviseringsmoniker"/>
+	<oaf_attribute name="name-or" type="string" value="ସାଧାରଣ ଓ.ଏ.ଏଫ. ସକ୍ରିୟଣ ନାମ"/>
+	<oaf_attribute name="name-pa" type="string" value="ਸਧਾਰਨ Oaf  ਸਰਗਰਮੀ ਮਾਨੀਕਰ"/>
+	<oaf_attribute name="name-pl" type="string" value="ogólny moniker aktywacji Oaf"/>
+	<oaf_attribute name="name-pt" type="string" value="moniker de activação Oaf genérica"/>
+	<oaf_attribute name="name-pt_BR" type="string" value="moniker de ativação Oaf genérico"/>
+	<oaf_attribute name="name-ro" type="string" value="Moniker de activare Oaf generic"/>
+	<oaf_attribute name="name-ru" type="string" value="общий моникер активации Oaf"/>
+	<oaf_attribute name="name-sk" type="string" value="všeobecný aktivačný moniker Oaf"/>
+	<oaf_attribute name="name-sl" type="string" value="prvotni vzdevek zagona Oaf"/>
+	<oaf_attribute name="name-sq" type="string" value="Moniker i përgjithshëm për aktivimin Oaf"/>
+	<oaf_attribute name="name-sr" type="string" value="општи надимак за активацију Oaf-а"/>
+	<oaf_attribute name="name-sr@latin" type="string" value="opšti nadimak za aktivaciju Oaf-a"/>
+	<oaf_attribute name="name-sv" type="string" value="allmän Oaf-aktiveringsmoniker"/>
+	<oaf_attribute name="name-ta" type="string" value="வடிவியல் Oaf தூண்டு செய்யும் moniker"/>
+	<oaf_attribute name="name-te" type="string" value="సాధారణ Oaf క్రియాశీలపు మానికర్"/>
+	<oaf_attribute name="name-th" type="string" value="มอนิเกอร์ทั่วไปสำหรับการ activate Oaf"/>
+	<oaf_attribute name="name-tr" type="string" value="Genel Moniker Oaf etkinleştirmesi"/>
+	<oaf_attribute name="name-ug" type="string" value="ئادەتتىكى Oaf ئاكتىپلاش moniker ئى"/>
+	<oaf_attribute name="name-uk" type="string" value="Загальний монікер активації OAF"/>
+	<oaf_attribute name="name-vi" type="string" value="moniker kích hoạt Oaf chung"/>
+	<oaf_attribute name="name-xh" type="string" value="i-moniker yohlobo oluthile lwe-Oaf eyenza isebenze"/>
+	<oaf_attribute name="name-yi" type="string" value="אַלגעמײנער Oaf אַקטיװירונג־צונעמעניש"/>
+	<oaf_attribute name="name-zh_CN" type="string" value="通用 Oaf 激活 moniker"/>
+	<oaf_attribute name="name-zh_HK" type="string" value="一般的 Oaf 啟動命名器"/>
+	<oaf_attribute name="name-zh_TW" type="string" value="一般的 Oaf 啟動命名器"/>
+	<oaf_attribute name="bonobo:moniker" type="stringv">
+		<item value="oafiid:"/>
+	</oaf_attribute>
+</oaf_server>
+
+<oaf_server ubuntu-gettext-domain="icecream" iid="OAFIID:Bonobo_Moniker_Query" type="factory"
+	location="OAFIID:Bonobo_Moniker_std_Factory">
+	<oaf_attribute name="repo_ids" type="stringv">
+		<item value="IDL:Bonobo/Moniker:1.0"/>
+		<item value="IDL:Bonobo/Unknown:1.0"/>
+	</oaf_attribute>
+	<oaf_attribute name="name" type="string" value="generic Oaf query moniker"/>
+	<oaf_attribute name="name-ar" type="string" value="moniker  عام للبحث عن Oaf"/>
+	<oaf_attribute name="name-as" type="string" value="সাধাৰণ Oaf অনুসন্ধানকাৰী moniker"/>
+	<oaf_attribute name="name-ast" type="string" value="moniker xenéricu de consulta de OAF"/>
+	<oaf_attribute name="name-az" type="string" value="sıravi Oaf sorğu monikeri"/>
+	<oaf_attribute name="name-be" type="string" value="Асноўны запыт Oaf мянушкі (moniker)"/>
+	<oaf_attribute name="name-bg" type="string" value="стандартен моникър за запитвания към Oaf"/>
+	<oaf_attribute name="name-bn" type="string" value="সামগ্রিক Oaf জিজ্ঞাসা মনিকার"/>
+	<oaf_attribute name="name-bn_IN" type="string" value="সাধারণ Oaf অনুসন্ধানকারী moniker"/>
+	<oaf_attribute name="name-br" type="string" value="jenerik Oaf a c&apos;houl Moniker"/>
+	<oaf_attribute name="name-bs" type="string" value="generički Oaf moniker za upit"/>
+	<oaf_attribute name="name-ca" type="string" value="sobrenom genèric de consulta OAF"/>
+	<oaf_attribute name="name-ca@valencia" type="string" value="sobrenom genèric de consulta OAF"/>
+	<oaf_attribute name="name-cs" type="string" value="obecný moniker pro dotazy na OAF"/>
+	<oaf_attribute name="name-cy" type="string" value="moniker ymholiad Oaf generig"/>
+	<oaf_attribute name="name-da" type="string" value="generel forespørgselsprotokolhåndtering til Oaf"/>
+	<oaf_attribute name="name-de" type="string" value="allgemeiner OAF-Abfrage-Moniker"/>
+	<oaf_attribute name="name-dz" type="string" value="ཇེ་ནི་རིཀ་ ཨོ་ཨེ་ཨེཕི་ འདྲི་དཔྱད་ཀྱི་ མོ་ནི་ཀར།"/>
+	<oaf_attribute name="name-el" type="string" value="γενικό απλουστ. όνομα επερώτησης Oaf"/>
+	<oaf_attribute name="name-en_CA" type="string" value="generic Oaf query moniker"/>
+	<oaf_attribute name="name-en_GB" type="string" value="generic Oaf query moniker"/>
+	<oaf_attribute name="name-eo" type="string" value="moniker-o de ĝenerala OAF-demando"/>
+	<oaf_attribute name="name-es" type="string" value="moniker genérico de consulta de OAF"/>
+	<oaf_attribute name="name-et" type="string" value="üldine Oaf-i päringumoniker"/>
+	<oaf_attribute name="name-eu" type="string" value="Oaf generikoaren kontsulta-monikerra"/>
+	<oaf_attribute name="name-fi" type="string" value="yleinen Oaf-kyselymoniker"/>
+	<oaf_attribute name="name-fr" type="string" value="moniker d&apos;interrogation Oaf générique"/>
+	<oaf_attribute name="name-gl" type="string" value="moniker xenérico de consulta OAF"/>
+	<oaf_attribute name="name-gu" type="string" value="સામાન્ય Oaf શોધનાર મોનિકર"/>
+	<oaf_attribute name="name-he" type="string" value="generic Oaf query moniker"/>
+	<oaf_attribute name="name-hi" type="string" value="ज़ेनेरिक ओएएफ़ क्वैरी मॉनिकर"/>
+	<oaf_attribute name="name-hr" type="string" value="generički Oaf zahtjevni moniker"/>
+	<oaf_attribute name="name-hu" type="string" value="általános Oaf lekérdező moniker"/>
+	<oaf_attribute name="name-hy" type="string" value="Oaf հարցման ընդհանուր մոնիկեր"/>
+	<oaf_attribute name="name-id" type="string" value="moniker query Oaf generik"/>
+	<oaf_attribute name="name-is" type="string" value="almennur Oaf fyrirspurnar-moniker"/>
+	<oaf_attribute name="name-it" type="string" value="Moniker generico per interrogazioni Oaf"/>
+	<oaf_attribute name="name-ja" type="string" value="Oaf 問い合わせ汎用モニカ"/>
+	<oaf_attribute name="name-ka" type="string" value="Oaf მოთხოვნის საზოგადო მონიკერი"/>
+	<oaf_attribute name="name-kn" type="string" value="ಸಾಮಾನ್ಯ Oaf ಮನವಿ moniker"/>
+	<oaf_attribute name="name-ko" type="string" value="일반 oaf 질의 모니커"/>
+	<oaf_attribute name="name-li" type="string" value="generieke OAF query moniker"/>
+	<oaf_attribute name="name-lt" type="string" value="bendrinis Oaf užklausų vardas"/>
+	<oaf_attribute name="name-lv" type="string" value="parasts Oaf prasījuma moniker"/>
+	<oaf_attribute name="name-mai" type="string" value="जेनेरिक ओएएफ़ क्वैरी मोनिकर"/>
+	<oaf_attribute name="name-mg" type="string" value="anarana fanontaniana Oaf iraisana"/>
+	<oaf_attribute name="name-mk" type="string" value="општ моникер за Oaf прашалник"/>
+	<oaf_attribute name="name-ml" type="string" value="സാധാരണ Oaf ക്വറി moniker"/>
+	<oaf_attribute name="name-mn" type="string" value="Ерөнхий OAF-хүсэлтийн moniker"/>
+	<oaf_attribute name="name-mr" type="string" value="मुळ Oaf प्रश्न मॉनीकर"/>
+	<oaf_attribute name="name-ms" type="string" value="moniker kueri Oaf generik"/>
+	<oaf_attribute name="name-nb" type="string" value="vanlig spørringsmoniker for Oaf"/>
+	<oaf_attribute name="name-ne" type="string" value="जेनेरिक Oaf क्वेरी मोनिकर"/>
+	<oaf_attribute name="name-nl" type="string" value="generieke OAF query moniker"/>
+	<oaf_attribute name="name-nn" type="string" value="vanleg Oaf spørjingsmoniker"/>
+	<oaf_attribute name="name-or" type="string" value="ସାଧାରଣ ଓ.ଏ.ଏଫ. ପ୍ରଶ୍ନ ନାମ"/>
+	<oaf_attribute name="name-pa" type="string" value="ਸਧਾਰਨ Oaf ਕਿਊਰੀ ਮਾਨੀਕਰ"/>
+	<oaf_attribute name="name-pl" type="string" value="ogólny moniker zapytań Oaf"/>
+	<oaf_attribute name="name-pt" type="string" value="moniker de consulta Oaf genérica"/>
+	<oaf_attribute name="name-pt_BR" type="string" value="moniker de consulta Oaf genérico"/>
+	<oaf_attribute name="name-ro" type="string" value="Moniker de interogare Oaf generic"/>
+	<oaf_attribute name="name-ru" type="string" value="общий моникер запроса Oaf"/>
+	<oaf_attribute name="name-sk" type="string" value="všeobecný dotazovací moniker Oaf"/>
+	<oaf_attribute name="name-sl" type="string" value="prvotni vzdevek poizvedbe Oaf"/>
+	<oaf_attribute name="name-sq" type="string" value="moniker i përgjithshëm për kërkesa Oaf"/>
+	<oaf_attribute name="name-sr" type="string" value="општи надимак за упит Oaf-а"/>
+	<oaf_attribute name="name-sr@latin" type="string" value="opšti nadimak za upit Oaf-a"/>
+	<oaf_attribute name="name-sv" type="string" value="allmän Oaf-frågemoniker"/>
+	<oaf_attribute name="name-ta" type="string" value="வடிவியல் Oaf வினவல் moniker"/>
+	<oaf_attribute name="name-te" type="string" value="సాదారణ Oaf క్వరీ మానికర్"/>
+	<oaf_attribute name="name-th" type="string" value="มอนิเกอร์ทั่วไปสำหรับสอบถาม Oaf"/>
+	<oaf_attribute name="name-tr" type="string" value="Genel Moniker Oaf sorgulaması"/>
+	<oaf_attribute name="name-ug" type="string" value="ئادەتتىكى Oaf سۈرۈشتۈرۈش moniker ئى"/>
+	<oaf_attribute name="name-uk" type="string" value="Загальний монікер запиту OAF"/>
+	<oaf_attribute name="name-vi" type="string" value="moniker truy vấn Oaf chung"/>
+	<oaf_attribute name="name-xh" type="string" value="i-moniker yohlobo oluthile lwe-Oaf yombuzo"/>
+	<oaf_attribute name="name-yi" type="string" value="אַלגעמײנער Oaf שאלה־צונעמעניש"/>
+	<oaf_attribute name="name-zh_CN" type="string" value="通用 Oaf 查询 moniker"/>
+	<oaf_attribute name="name-zh_HK" type="string" value="一般的 Oaf 查詢命名器"/>
+	<oaf_attribute name="name-zh_TW" type="string" value="一般的 Oaf 查詢命名器"/>
+	<oaf_attribute name="bonobo:moniker" type="stringv">
+		<item value="query:"/>
+	</oaf_attribute>
+</oaf_server>
+
+<oaf_server ubuntu-gettext-domain="icecream" iid="OAFIID:Bonobo_Moniker_New" type="factory"
+	location="OAFIID:Bonobo_Moniker_std_Factory">
+	<oaf_attribute name="repo_ids" type="stringv">
+		<item value="IDL:Bonobo/Moniker:1.0"/>
+		<item value="IDL:Bonobo/Unknown:1.0"/>
+	</oaf_attribute>
+	<oaf_attribute name="name" type="string" value="generic factory 'new' moniker"/>
+	<oaf_attribute name="name-ar" type="string" value="moniker &apos;جديد&apos; لمصتع عام"/>
+	<oaf_attribute name="name-as" type="string" value="সাধাৰণ ফ্যাক্টৰিৰ &apos;নতুন&apos; moniker"/>
+	<oaf_attribute name="name-ast" type="string" value="Fábrica de moniker xenéricu"/>
+	<oaf_attribute name="name-az" type="string" value="sıravi e&apos;malatxanası &apos;yeni&apos; monikeri"/>
+	<oaf_attribute name="name-be" type="string" value="асноўная вытворчасьць &quot;новай&quot; мянушкі (moniker)"/>
+	<oaf_attribute name="name-bg" type="string" value="стандартен моникър - „нов“ на фабрика"/>
+	<oaf_attribute name="name-bn" type="string" value="সামগ্রিক ফ্যাক্টরি &apos;নতুন&apos; মনিকার"/>
+	<oaf_attribute name="name-bn_IN" type="string" value="সাধারণ ফ্যাক্টরির &apos;নতুন&apos; moniker"/>
+	<oaf_attribute name="name-br" type="string" value="stal jenerik ar &apos;nevez&apos; Moniker"/>
+	<oaf_attribute name="name-bs" type="string" value="generička tvornica «new» monikera"/>
+	<oaf_attribute name="name-ca" type="string" value="sobrenom «nou» genèric de fàbrica"/>
+	<oaf_attribute name="name-ca@valencia" type="string" value="sobrenom «nou» genèric de fàbrica"/>
+	<oaf_attribute name="name-cs" type="string" value="obecný moniker pro generátor &apos;new&apos;"/>
+	<oaf_attribute name="name-cy" type="string" value="moniker &apos;newydd&apos; ffatri generig"/>
+	<oaf_attribute name="name-da" type="string" value="generel fabrik-&apos;new&apos;-protokolhåndtering"/>
+	<oaf_attribute name="name-de" type="string" value="allgemeiner »new«-Fabrik-Moniker"/>
+	<oaf_attribute name="name-dz" type="string" value="ཇེ་ནི་རིཀ་ འཕྲུལ་ཁང་གི་ མོ་ནི་ཀར་&apos;གསརཔ&apos;།"/>
+	<oaf_attribute name="name-el" type="string" value="γενικό απλουστ. όνομα εργοστασίου &apos;νέο&apos;"/>
+	<oaf_attribute name="name-en@shaw" type="string" value="𐑡𐑩𐑯𐑧𐑮𐑦𐑒 𐑓𐑨𐑒𐑑𐑼𐑦 &apos;𐑯𐑿&apos; 𐑥𐑪𐑯𐑦𐑒𐑼"/>
+	<oaf_attribute name="name-en_CA" type="string" value="generic factory &apos;new&apos; moniker"/>
+	<oaf_attribute name="name-en_GB" type="string" value="generic factory &apos;new&apos; moniker"/>
+	<oaf_attribute name="name-eo" type="string" value="&apos;nova&apos; moniker-o de ĝenerala fabrikejo"/>
+	<oaf_attribute name="name-es" type="string" value="Fábrica de moniker genérico"/>
+	<oaf_attribute name="name-et" type="string" value="üldise factory &apos;uus&apos; moniker"/>
+	<oaf_attribute name="name-eu" type="string" value="fabrika generikoko moniker &apos;berria&apos; "/>
+	<oaf_attribute name="name-fi" type="string" value="yleinen tehdas &apos;new&apos;-moniker"/>
+	<oaf_attribute name="name-fr" type="string" value="« nouveau » moniker de fabrique générique"/>
+	<oaf_attribute name="name-gl" type="string" value="moniker &apos;new&apos; de factoría xenérica"/>
+	<oaf_attribute name="name-gu" type="string" value="સામાન્ય કારખાનું &apos;નવું&apos; મોનિકર"/>
+	<oaf_attribute name="name-he" type="string" value="generic factory &apos;new&apos; moniker"/>
+	<oaf_attribute name="name-hi" type="string" value="ज़ेनेरिक फैक्ट्री &apos;नया&apos; मॉनिकर"/>
+	<oaf_attribute name="name-hr" type="string" value="ganerički tvornički &apos;novi&apos; moniker"/>
+	<oaf_attribute name="name-hu" type="string" value="általános factory „new” moniker"/>
+	<oaf_attribute name="name-hy" type="string" value="&apos;new&apos; ֆաբրիկայի ընդհանուր մոնիկեր"/>
+	<oaf_attribute name="name-id" type="string" value="moniker &apos;new&apos; pabrik generik"/>
+	<oaf_attribute name="name-is" type="string" value="almenn verksmiðja nýrra moniker"/>
+	<oaf_attribute name="name-it" type="string" value="moniker generico per factory &quot;new&quot;"/>
+	<oaf_attribute name="name-ja" type="string" value="汎用 &apos;new&apos; モニカのファクトリ"/>
+	<oaf_attribute name="name-ka" type="string" value="საწარმოს &apos;ახალი&apos; საზოგადო მონიკერი"/>
+	<oaf_attribute name="name-kn" type="string" value="ಸಾಮಾನ್ಯ ಫ್ಯಾಕ್ಟರಿ &apos;ಹೊಸ&apos; moniker"/>
+	<oaf_attribute name="name-ko" type="string" value="일반 팩토리 &apos;새&apos; 모니커"/>
+	<oaf_attribute name="name-li" type="string" value="generieke febrik &apos;nuuj&apos; moniker"/>
+	<oaf_attribute name="name-lt" type="string" value="bendrinis &apos;naujas&apos; gamyklos vardas"/>
+	<oaf_attribute name="name-lv" type="string" value="parasts ražotnes &apos;jaunais&apos; moniker"/>
+	<oaf_attribute name="name-mai" type="string" value="जेनेरिक फैक्ट्री &apos;नवीन&apos; मोनिकर"/>
+	<oaf_attribute name="name-mg" type="string" value="anarana &apos;vaovao&apos; iraisana avy any amin&apos;ny toerana fanamboarana"/>
+	<oaf_attribute name="name-mk" type="string" value="нов општ моникер"/>
+	<oaf_attribute name="name-ml" type="string" value="ജനറിക്ക് ഫാക്ടറി &apos;പുതിയ&apos; moniker"/>
+	<oaf_attribute name="name-mn" type="string" value="Ерөнхий »шинэ« үйлдвэр moniker"/>
+	<oaf_attribute name="name-mr" type="string" value="मुळ फॅक्ट्री &apos;नविन&apos; मॉनीकर"/>
+	<oaf_attribute name="name-ms" type="string" value="moniker &apos;baru&apos; kilang generik"/>
+	<oaf_attribute name="name-nb" type="string" value="vanlig factory «new» moniker"/>
+	<oaf_attribute name="name-ne" type="string" value="जेनेरिक कारखाना &apos;नयाँ&apos; मोनिकर"/>
+	<oaf_attribute name="name-nl" type="string" value="generieke factory &apos;nieuw&apos; moniker"/>
+	<oaf_attribute name="name-nn" type="string" value="vanleg fabrikk &apos;ny&apos; moniker"/>
+	<oaf_attribute name="name-or" type="string" value="ସାଧାରଣ କାରଖାନା &apos;ନୂଆ&apos; ନାମ"/>
+	<oaf_attribute name="name-pa" type="string" value="ਸਧਾਰਨ ਫੈਕਟਰੀ &apos;ਨਵਾਂ&apos; ਮਾਨੀਕਰ"/>
+	<oaf_attribute name="name-pl" type="string" value="ogólny moniker generatora &apos;new&apos; (nowych obiektów)"/>
+	<oaf_attribute name="name-pt" type="string" value="moniker de fábrica &apos;novo&apos; genérica"/>
+	<oaf_attribute name="name-pt_BR" type="string" value="&apos;novo&apos; moniker de fábrica genérica"/>
+	<oaf_attribute name="name-ro" type="string" value="nou Moniker de fabrică generic"/>
+	<oaf_attribute name="name-ru" type="string" value="общий моникер &quot;new&quot; фабрики"/>
+	<oaf_attribute name="name-sk" type="string" value="všeobecný moniker továrne &apos;new&apos;"/>
+	<oaf_attribute name="name-sl" type="string" value="prvotna tovarna &apos;novega&apos; vzdevka"/>
+	<oaf_attribute name="name-sq" type="string" value="moniker i përgjithshëm për factory &apos;new&apos;"/>
+	<oaf_attribute name="name-sr" type="string" value="општа творница „new“ надимака"/>
+	<oaf_attribute name="name-sr@latin" type="string" value="opšta tvornica „new“ nadimaka"/>
+	<oaf_attribute name="name-sv" type="string" value="allmän ny fabrikmoniker"/>
+	<oaf_attribute name="name-ta" type="string" value="வடிவியல் தொழிற்சாலை &apos;புதிய&apos; moniker"/>
+	<oaf_attribute name="name-te" type="string" value="సాదారణ ఫాక్టరీ &apos;కొత్త&apos; మానికర్"/>
+	<oaf_attribute name="name-th" type="string" value="มอนิเกอร์ &apos;new&apos; ทั่วไปสำหรับโรงงาน"/>
+	<oaf_attribute name="name-tr" type="string" value="Moniker genel üretim &apos;yeni&apos;"/>
+	<oaf_attribute name="name-ug" type="string" value="ئادەتتىكى زاۋۇت «يېڭى» moniker ئى"/>
+	<oaf_attribute name="name-uk" type="string" value="Загальний монікер фабрики &quot;new&quot;"/>
+	<oaf_attribute name="name-vi" type="string" value="bộ tạo moniker « mới » chung"/>
+	<oaf_attribute name="name-xh" type="string" value="i-moniker &apos;entsha&apos; yohlobo oluthile yefektri"/>
+	<oaf_attribute name="name-yi" type="string" value="אַלגעמײנער פֿאַבריק &apos;נײַ&apos; צונעמעניש"/>
+	<oaf_attribute name="name-zh_CN" type="string" value="通用车间“新”moniker"/>
+	<oaf_attribute name="name-zh_HK" type="string" value="一般的「新增」命名器的元件工廠"/>
+	<oaf_attribute name="name-zh_TW" type="string" value="一般的「新增」命名器的元件工廠"/>
+	<oaf_attribute name="bonobo:moniker" type="stringv">
+		<item value="new:"/>
+	</oaf_attribute>
+</oaf_server>
+
+<oaf_server ubuntu-gettext-domain="icecream" iid="OAFIID:Bonobo_MonikerExtender_stream" type="factory"
+	location="OAFIID:Bonobo_Moniker_std_Factory">
+	<oaf_attribute name="repo_ids" type="stringv">
+		<item value="IDL:Bonobo/MonikerExtender:1.0"/>
+		<item value="IDL:Bonobo/Unknown:1.0"/>
+	</oaf_attribute>
+	<oaf_attribute name="bonobo:moniker_extender" type="stringv">
+		<item value="file:"/>
+		<item value="http:"/>
+		<item value="gunzip:"/>
+		<item value="untar:"/>
+	</oaf_attribute>
+	<oaf_attribute name="name" type="string" value="stream MonikerExtender"/>
+	<oaf_attribute name="name-ar" type="string" value="تيار بيانات MonikerExtender"/>
+	<oaf_attribute name="name-as" type="string" value="MonikerExtender স্ট্ৰিম কৰা হ&apos;ব"/>
+	<oaf_attribute name="name-ast" type="string" value="fluxu MonikerExtender"/>
+	<oaf_attribute name="name-az" type="string" value="axım MonikerExtender"/>
+	<oaf_attribute name="name-be" type="string" value="плыня MonikerExtender"/>
+	<oaf_attribute name="name-bg" type="string" value="поточен моникър-разширител"/>
+	<oaf_attribute name="name-bn" type="string" value="MonikerExtender স্ট্রীম"/>
+	<oaf_attribute name="name-bn_IN" type="string" value="MonikerExtender স্ট্রিম করা হবে"/>
+	<oaf_attribute name="name-br" type="string" value="chal MonikerExtender"/>
+	<oaf_attribute name="name-bs" type="string" value="stream MonikerExtender"/>
+	<oaf_attribute name="name-ca" type="string" value="flux MonikerExtender"/>
+	<oaf_attribute name="name-ca@valencia" type="string" value="flux MonikerExtender"/>
+	<oaf_attribute name="name-cs" type="string" value="stream MonikerExtender"/>
+	<oaf_attribute name="name-cy" type="string" value="MonikerExtender llif"/>
+	<oaf_attribute name="name-da" type="string" value="strøm MonikerExtender"/>
+	<oaf_attribute name="name-de" type="string" value="Datenstrom-MonikerExtender"/>
+	<oaf_attribute name="name-dz" type="string" value="རྒྱུན་རིམ་གྱི་ མོ་ནི་ཀར་རྒྱ་བསྐྱེདཔ།"/>
+	<oaf_attribute name="name-el" type="string" value="ροή MonikerExtender"/>
+	<oaf_attribute name="name-en_CA" type="string" value="stream MonikerExtender"/>
+	<oaf_attribute name="name-en_GB" type="string" value="stream MonikerExtender"/>
+	<oaf_attribute name="name-eo" type="string" value="MonikerExtender de datumfluo"/>
+	<oaf_attribute name="name-es" type="string" value="flujo MonikerExtender"/>
+	<oaf_attribute name="name-et" type="string" value="voo MonikerExtender"/>
+	<oaf_attribute name="name-eu" type="string" value="MonikerExtender korrontea"/>
+	<oaf_attribute name="name-fa" type="string" value="جریان MonikerExtender"/>
+	<oaf_attribute name="name-fi" type="string" value="virta-MonikerExtender"/>
+	<oaf_attribute name="name-fr" type="string" value="MonikerExtender de flux"/>
+	<oaf_attribute name="name-gl" type="string" value="fluxo MonikerExtender"/>
+	<oaf_attribute name="name-gu" type="string" value="સ્ટ્રીમ મોનિકરએક્સટેન્ડર"/>
+	<oaf_attribute name="name-he" type="string" value="stream MonikerExtender"/>
+	<oaf_attribute name="name-hi" type="string" value="स्ट्रीम मॉनिकर-एक्सटेंडर"/>
+	<oaf_attribute name="name-hr" type="string" value="MonikerExtender tok podataka"/>
+	<oaf_attribute name="name-hu" type="string" value="folyam MonikerExtender"/>
+	<oaf_attribute name="name-hy" type="string" value="MonikerExtender հոսք"/>
+	<oaf_attribute name="name-id" type="string" value="stream MonikerExtender"/>
+	<oaf_attribute name="name-is" type="string" value="strauma MonikerExtender"/>
+	<oaf_attribute name="name-it" type="string" value="MonikerExtender stream"/>
+	<oaf_attribute name="name-ja" type="string" value="ストリームの MonikerExtender"/>
+	<oaf_attribute name="name-ka" type="string" value="ნაკადის MonikerExtender"/>
+	<oaf_attribute name="name-kn" type="string" value="ಸ್ಟ್ರೀಮ್ MonikerExtender"/>
+	<oaf_attribute name="name-ko" type="string" value="스트림 모니커익스텐더"/>
+	<oaf_attribute name="name-li" type="string" value="stream MonikerExtender"/>
+	<oaf_attribute name="name-lt" type="string" value="srauto vardo iįplėtimas"/>
+	<oaf_attribute name="name-lv" type="string" value="straume MonikerExtender"/>
+	<oaf_attribute name="name-mai" type="string" value="स्ट्रीम मोनिकर-एक्सटेंडर"/>
+	<oaf_attribute name="name-mg" type="string" value="MonikerExtender an&apos;ny tosaka"/>
+	<oaf_attribute name="name-mk" type="string" value="продолжувач за проток на моникер"/>
+	<oaf_attribute name="name-ml" type="string" value="സ്ട്രീം MonikerExtender"/>
+	<oaf_attribute name="name-mn" type="string" value="урсгал MonikerExtender"/>
+	<oaf_attribute name="name-mr" type="string" value="स्ट्रीम मॉनीकर विस्तार"/>
+	<oaf_attribute name="name-ms" type="string" value="MonikerExtender aliran"/>
+	<oaf_attribute name="name-nb" type="string" value="strøm MonikerExtender"/>
+	<oaf_attribute name="name-ne" type="string" value="स्ट्रिम मोनिकर विस्तारक"/>
+	<oaf_attribute name="name-nl" type="string" value="stream MonikerExtender"/>
+	<oaf_attribute name="name-nn" type="string" value="straum Moniker utvidar"/>
+	<oaf_attribute name="name-or" type="string" value="ଧାରା ନାମ ଉନ୍ନତି"/>
+	<oaf_attribute name="name-pa" type="string" value="ਸਟਰੀਮ ਮਾਨੀਕਰ-ਵਧਾਰਾ"/>
+	<oaf_attribute name="name-pl" type="string" value="strumień MonikerExtender"/>
+	<oaf_attribute name="name-pt" type="string" value="fluxo MonikerExtender"/>
+	<oaf_attribute name="name-pt_BR" type="string" value="MonikerExtender de fluxo"/>
+	<oaf_attribute name="name-ro" type="string" value="flux de date MonikerExtender"/>
+	<oaf_attribute name="name-ru" type="string" value="потоковый MonikerExtender"/>
+	<oaf_attribute name="name-sk" type="string" value="prúd MonikerExtender"/>
+	<oaf_attribute name="name-sl" type="string" value="MonikerExtender pretoka"/>
+	<oaf_attribute name="name-sq" type="string" value="MonikerExtender stream"/>
+	<oaf_attribute name="name-sr" type="string" value="MonikerExtender тока"/>
+	<oaf_attribute name="name-sr@latin" type="string" value="MonikerExtender toka"/>
+	<oaf_attribute name="name-sv" type="string" value="strömmonikerutökare"/>
+	<oaf_attribute name="name-ta" type="string" value="ஓடை MonikerExtender"/>
+	<oaf_attribute name="name-te" type="string" value="స్ట్రీమ్ MonikerExtender"/>
+	<oaf_attribute name="name-th" type="string" value="มอนิเกอร์ส่วนขยายแบบสตรีม"/>
+	<oaf_attribute name="name-tr" type="string" value="Moniker Kapsamındaki akım"/>
+	<oaf_attribute name="name-ug" type="string" value="ئېقىم MonikerExtender"/>
+	<oaf_attribute name="name-uk" type="string" value="потоковий MonikerExtender"/>
+	<oaf_attribute name="name-vi" type="string" value="luồng MonikerExtender"/>
+	<oaf_attribute name="name-xh" type="string" value="i-MonikerExtender kavimba"/>
+	<oaf_attribute name="name-yi" type="string" value="שאלה צונעמעניש־פֿאַרלענגערער"/>
+	<oaf_attribute name="name-zh_CN" type="string" value="流 MonikerExtender"/>
+	<oaf_attribute name="name-zh_HK" type="string" value="資料串流命名延伸器"/>
+	<oaf_attribute name="name-zh_TW" type="string" value="資料串流命名延伸器"/>
+</oaf_server>
+
+</oaf_info>

@@ -1,0 +1,9 @@
+prefix=/usr/local/pvr
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+xkbconfigdir=/usr/local/pvr/share/X11/xkb
+
+Name: xkbcomp
+Description: XKB keymap compiler
+Version: 1.2.4
+Requires.private: x11 xkbfile xproto >= 7.0.17

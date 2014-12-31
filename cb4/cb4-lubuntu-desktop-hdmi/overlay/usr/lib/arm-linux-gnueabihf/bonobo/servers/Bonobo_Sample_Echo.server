@@ -1,0 +1,341 @@
+<oaf_info>
+
+<oaf_server ubuntu-gettext-domain="icecream" iid="OAFIID:Bonobo_Sample_Echo_Factory" type="exe" 
+	location="/usr/lib/bonobo-2.0/samples/bonobo-echo-2">
+	<oaf_attribute name="repo_ids" type="stringv">
+		<item value="IDL:GNOME/ObjectFactory:1.0"/>
+	</oaf_attribute>
+	<oaf_attribute name="name" type="string" value="Echo component factory"/>
+	<oaf_attribute name="name-ar" type="string" value="مصنع لمكون الصدى"/>
+	<oaf_attribute name="name-as" type="string" value="Echo বস্তুৰ ফ্যাক্টৰি"/>
+	<oaf_attribute name="name-ast" type="string" value="Fábrica del componente echo (eco)"/>
+	<oaf_attribute name="name-az" type="string" value="Əks-səda hissə fabrika"/>
+	<oaf_attribute name="name-be" type="string" value="Вытворчасьць кампанэнты Echo"/>
+	<oaf_attribute name="name-bg" type="string" value="Фабрика на компонента „Ехо“"/>
+	<oaf_attribute name="name-bn" type="string" value="ইকো কম্পোনেন্টের ফ্যাক্টরি"/>
+	<oaf_attribute name="name-bn_IN" type="string" value="Echo বস্তুর ফ্যাক্টরি"/>
+	<oaf_attribute name="name-br" type="string" value="Stal elfenn Echo"/>
+	<oaf_attribute name="name-bs" type="string" value="Tvornica Echo komponenti"/>
+	<oaf_attribute name="name-ca" type="string" value="Fàbrica de component d&apos;eco"/>
+	<oaf_attribute name="name-ca@valencia" type="string" value="Fàbrica de component d&apos;eco"/>
+	<oaf_attribute name="name-cs" type="string" value="Generátor komponenty Echo"/>
+	<oaf_attribute name="name-cy" type="string" value="ffatri cydran Echo"/>
+	<oaf_attribute name="name-da" type="string" value="Ekkokomponentfabrik"/>
+	<oaf_attribute name="name-de" type="string" value="Echo-Komponentenfabrik"/>
+	<oaf_attribute name="name-dz" type="string" value="བྲག་ཆའི་ཆ་ཤས་འཕྲུལ་ཁང༌།"/>
+	<oaf_attribute name="name-el" type="string" value="Εργοστάσιο συστατικού ηχούς"/>
+	<oaf_attribute name="name-en@shaw" type="string" value="𐑧𐑒𐑴 𐑒𐑩𐑥𐑐𐑴𐑯𐑩𐑯𐑑 𐑓𐑨𐑒𐑑𐑼𐑦"/>
+	<oaf_attribute name="name-en_CA" type="string" value="Echo component factory"/>
+	<oaf_attribute name="name-en_GB" type="string" value="Echo component factory"/>
+	<oaf_attribute name="name-eo" type="string" value="Fabrikejo de Echo-a komponanto"/>
+	<oaf_attribute name="name-es" type="string" value="Fábrica del componente echo (eco)"/>
+	<oaf_attribute name="name-et" type="string" value="Kajakomponendi factory"/>
+	<oaf_attribute name="name-eu" type="string" value="Echo osagai-fabrika"/>
+	<oaf_attribute name="name-fi" type="string" value="Kaikukomponenttitehdas"/>
+	<oaf_attribute name="name-fr" type="string" value="Fabrique de composant Echo"/>
+	<oaf_attribute name="name-gl" type="string" value="Factoría de compoñente Echo"/>
+	<oaf_attribute name="name-gu" type="string" value="ઈકોના ભાગોનું કારખાનું"/>
+	<oaf_attribute name="name-he" type="string" value="Echo component factory"/>
+	<oaf_attribute name="name-hi" type="string" value="इको अवयव फैक्ट्री"/>
+	<oaf_attribute name="name-hr" type="string" value="Tvornica Echo komponenti"/>
+	<oaf_attribute name="name-hu" type="string" value="Echo komponens factory"/>
+	<oaf_attribute name="name-hy" type="string" value="Echo բաղադրիչի ֆաբրիկա"/>
+	<oaf_attribute name="name-id" type="string" value="Pabrik komponen Echo"/>
+	<oaf_attribute name="name-is" type="string" value="Echo íhlutaverksmiðja"/>
+	<oaf_attribute name="name-it" type="string" value="Fabbrica componente Echo"/>
+	<oaf_attribute name="name-ja" type="string" value="Echo コンポーネント・ファクトリ"/>
+	<oaf_attribute name="name-ka" type="string" value="ექოს კომპონენტის საწარმო"/>
+	<oaf_attribute name="name-kn" type="string" value="Echo ಘಟಕದ ಫ್ಯಾಕ್ಟರಿ"/>
+	<oaf_attribute name="name-ko" type="string" value="메아리 컴포넌트 팩토리"/>
+	<oaf_attribute name="name-li" type="string" value="Echo komponènt febrik"/>
+	<oaf_attribute name="name-lt" type="string" value="Aido komponento gamykla"/>
+	<oaf_attribute name="name-lv" type="string" value="Echo komponentes ražotne"/>
+	<oaf_attribute name="name-mai" type="string" value="इको अवयव फैक्ट्री"/>
+	<oaf_attribute name="name-mg" type="string" value="Toerana fanamboarana ny singan&apos;ny Echo"/>
+	<oaf_attribute name="name-mk" type="string" value="Фабрика за ехо компоненти"/>
+	<oaf_attribute name="name-ml" type="string" value="Echo ഘടകം ശാല"/>
+	<oaf_attribute name="name-mn" type="string" value="Echo-бүрэлдхүүний үйлдвэр"/>
+	<oaf_attribute name="name-mr" type="string" value="Echo भाग फॅक्ट्री"/>
+	<oaf_attribute name="name-ms" type="string" value="Kilang komponen Echo"/>
+	<oaf_attribute name="name-nb" type="string" value="Factory for Ekko-komponent"/>
+	<oaf_attribute name="name-ne" type="string" value="प्रतिध्वनि अवयव कारखाना"/>
+	<oaf_attribute name="name-nl" type="string" value="Echo component fabriek"/>
+	<oaf_attribute name="name-nn" type="string" value="Ekkokomponent fabrikk"/>
+	<oaf_attribute name="name-or" type="string" value="ପ୍ରତିଧ୍ବନି ଯନ୍ତ୍ରାଂଶ କାରଖାନା"/>
+	<oaf_attribute name="name-pa" type="string" value="ਈਚੋ ਭਾਗ ਫੈਕਟਰੀ"/>
+	<oaf_attribute name="name-pl" type="string" value="Generator komponentów Echo"/>
+	<oaf_attribute name="name-pt" type="string" value="Fábrica de componente Echo"/>
+	<oaf_attribute name="name-pt_BR" type="string" value="Fábrica de componente do Echo"/>
+	<oaf_attribute name="name-ro" type="string" value="Fabrica componentei Echo"/>
+	<oaf_attribute name="name-ru" type="string" value="Фабрика компонента Эхо"/>
+	<oaf_attribute name="name-sk" type="string" value="Továreň komponentu echo"/>
+	<oaf_attribute name="name-sl" type="string" value="Tovarna sestavine odmevov"/>
+	<oaf_attribute name="name-sq" type="string" value="Fabrika e përbërësit Echo"/>
+	<oaf_attribute name="name-sr" type="string" value="Творница Echo компоненте"/>
+	<oaf_attribute name="name-sr@latin" type="string" value="Tvornica Echo komponente"/>
+	<oaf_attribute name="name-sv" type="string" value="Ekokomponentfabrik"/>
+	<oaf_attribute name="name-ta" type="string" value="எதிரளிப்பு கூறு தொழிற்சாலை"/>
+	<oaf_attribute name="name-te" type="string" value="Echo ములకము ఫాక్టరీ"/>
+	<oaf_attribute name="name-th" type="string" value="โรงงานองค์ประกอบ Echo"/>
+	<oaf_attribute name="name-tr" type="string" value="Echo içerik üreticisi"/>
+	<oaf_attribute name="name-ug" type="string" value="Echo بۆلەك زاۋۇتى"/>
+	<oaf_attribute name="name-uk" type="string" value="Фабрика компонентів відлуння"/>
+	<oaf_attribute name="name-vi" type="string" value="Bộ tạo thành phần vọng"/>
+	<oaf_attribute name="name-xh" type="string" value="Ifektri yelungu lentlokoma"/>
+	<oaf_attribute name="name-yi" type="string" value="װידערקול־קאָמפּאָנענט פֿאַבריק"/>
+	<oaf_attribute name="name-zh_CN" type="string" value="Echo 部件车间"/>
+	<oaf_attribute name="name-zh_HK" type="string" value="Echo 元件工廠"/>
+	<oaf_attribute name="name-zh_TW" type="string" value="Echo 元件工廠"/>
+	<oaf_attribute name="description" type="string" value="Bonobo Echo server factory"/>
+	<oaf_attribute name="description-ar" type="string" value="مصنع خادوم صدى بونوبو"/>
+	<oaf_attribute name="description-as" type="string" value="Bonobo Echo সেৱক ফ্যাক্টৰি"/>
+	<oaf_attribute name="description-ast" type="string" value="Fábrica del sirvidor Bonobo Echo (eco)"/>
+	<oaf_attribute name="description-az" type="string" value="Bonobo Əks-səda verici fabrika"/>
+	<oaf_attribute name="description-be" type="string" value="Вытворчасьць паслужніку Bonobo Echo"/>
+	<oaf_attribute name="description-bg" type="string" value="Сървърна фабрика за ехо на Bonobo"/>
+	<oaf_attribute name="description-bn" type="string" value="বোনোবো ইকো সার্ভার ফ্যাক্টরি"/>
+	<oaf_attribute name="description-bn_IN" type="string" value="Bonobo Echo সার্ভার ফ্যাক্টরি"/>
+	<oaf_attribute name="description-br" type="string" value="Stal server Bonobo Echo"/>
+	<oaf_attribute name="description-bs" type="string" value="Bonobo tvornica Echo servera"/>
+	<oaf_attribute name="description-ca" type="string" value="Fàbrica del servidor d&apos;eco del Bonobo"/>
+	<oaf_attribute name="description-ca@valencia" type="string" value="Fàbrica del servidor d&apos;eco del Bonobo"/>
+	<oaf_attribute name="description-cs" type="string" value="Generátor serveru Bonobo Echo"/>
+	<oaf_attribute name="description-cy" type="string" value="ffatri gweinydd Echo Bonobo"/>
+	<oaf_attribute name="description-da" type="string" value="Bonobo-ekkoserverfabrik"/>
+	<oaf_attribute name="description-de" type="string" value="Bonobo-Echo-Server-Fabrik"/>
+	<oaf_attribute name="description-dz" type="string" value="བཱོ་ནོ་བཱོ་ བྲག་ཅའི་སར་བར་འཕྲུལ་ཁང༌།"/>
+	<oaf_attribute name="description-el" type="string" value="Εργοστάσιο εξυπηρετητή Ηχούς Bonobo"/>
+	<oaf_attribute name="description-en@shaw" type="string" value="·𐑚𐑭𐑯𐑭𐑚𐑴 𐑧𐑒𐑴 𐑕𐑻𐑝𐑼 𐑓𐑨𐑒𐑑𐑼𐑦"/>
+	<oaf_attribute name="description-en_CA" type="string" value="Bonobo Echo server factory"/>
+	<oaf_attribute name="description-en_GB" type="string" value="Bonobo Echo server factory"/>
+	<oaf_attribute name="description-eo" type="string" value="Fabrikejo de Bonobo-Echo-servilo"/>
+	<oaf_attribute name="description-es" type="string" value="Fábrica del servidor Bonobo Echo (eco)"/>
+	<oaf_attribute name="description-et" type="string" value="Bonobo Kajaserveri factory"/>
+	<oaf_attribute name="description-eu" type="string" value="Bonobo Echo zerbitzari-fabrika"/>
+	<oaf_attribute name="description-fi" type="string" value="Bonobo-kaikupalvelintehdas"/>
+	<oaf_attribute name="description-fr" type="string" value="Fabrique de serveur Bonobo Echo"/>
+	<oaf_attribute name="description-gl" type="string" value="Factoría de servidor do Bonobo Echo"/>
+	<oaf_attribute name="description-gu" type="string" value="બોનાેબો ઈકો સર્વર કારખાનું"/>
+	<oaf_attribute name="description-he" type="string" value="Bonobo Echo server factory"/>
+	<oaf_attribute name="description-hi" type="string" value="बोनोबो इको सर्वर फैक्ट्री"/>
+	<oaf_attribute name="description-hr" type="string" value="Tvornica poslužitelja Bonobo Echo-a"/>
+	<oaf_attribute name="description-hu" type="string" value="Bonobo Echo-kiszolgáló factory"/>
+	<oaf_attribute name="description-hy" type="string" value="Bonobo Echo համակարգային ֆաբրիկա"/>
+	<oaf_attribute name="description-id" type="string" value="Pabrik server Echo Bonobo"/>
+	<oaf_attribute name="description-is" type="string" value="Bonobo Echo þjónn"/>
+	<oaf_attribute name="description-it" type="string" value="Fabbrica per il server bonobo Echo"/>
+	<oaf_attribute name="description-ja" type="string" value="Bonobo Echo サーバ・ファクトリ"/>
+	<oaf_attribute name="description-ka" type="string" value="Bonobo ექო სერვერის საწარმო"/>
+	<oaf_attribute name="description-kn" type="string" value="Bonobo Echo ಪರಿಚಾರಕದ ಫ್ಯಾಕ್ಟರಿ"/>
+	<oaf_attribute name="description-ko" type="string" value="보노보 메아리 서버 팩토리"/>
+	<oaf_attribute name="description-li" type="string" value="Bonobo Echo-server febrik"/>
+	<oaf_attribute name="description-lt" type="string" value="Bonobo Aido serverio gamykla"/>
+	<oaf_attribute name="description-lv" type="string" value="Bonobo Echo servera ražotne"/>
+	<oaf_attribute name="description-mai" type="string" value="बोनोबो इको सर्वर फैक्ट्री"/>
+	<oaf_attribute name="description-mg" type="string" value="Toerana fanamboarana ny mpizaran&apos;ny Bonobo Echo"/>
+	<oaf_attribute name="description-mk" type="string" value="Bonobo ехо сервер фабрика"/>
+	<oaf_attribute name="description-ml" type="string" value="Bonobo Echo സര്‍വര്‍ ശാല"/>
+	<oaf_attribute name="description-mn" type="string" value="Bonobo Echo серверийн үйлдвэр"/>
+	<oaf_attribute name="description-mr" type="string" value="Bonobo Echo सर्वर फॅक्ट्री"/>
+	<oaf_attribute name="description-ms" type="string" value="Kilang pelayan Echo Bonobo"/>
+	<oaf_attribute name="description-nb" type="string" value="Bonobo factory for ekkotjener"/>
+	<oaf_attribute name="description-ne" type="string" value="बोनोबो प्रतिध्वनि सर्भर कारखाना"/>
+	<oaf_attribute name="description-nl" type="string" value="Bonobo Echo-server factory"/>
+	<oaf_attribute name="description-nn" type="string" value="Bonobo Ekko-tenar fabrikk"/>
+	<oaf_attribute name="description-or" type="string" value="ବନୋବୋ ପ୍ରତିଧ୍ବନି ସେବକ କାରଖାନା"/>
+	<oaf_attribute name="description-pa" type="string" value="ਬੋਨਬੋ ਈਚੋ ਸਰਵਰ ਫੈਕਟਰੀ"/>
+	<oaf_attribute name="description-pl" type="string" value="generator serwera Bonobo Echo"/>
+	<oaf_attribute name="description-pt" type="string" value="Fábrica de servidor Echo Bonobo"/>
+	<oaf_attribute name="description-pt_BR" type="string" value="Fábrica do servidor Bonobo Echo"/>
+	<oaf_attribute name="description-ro" type="string" value="Fabrică server Bonobo Echo"/>
+	<oaf_attribute name="description-ru" type="string" value="Фабрика эхо-сервера Bonobo"/>
+	<oaf_attribute name="description-sk" type="string" value="Bonobo továreň servera echo"/>
+	<oaf_attribute name="description-sl" type="string" value="Tovarna strežnika bonobo odmevov"/>
+	<oaf_attribute name="description-sq" type="string" value="Fabrikë për server-in Bonobo Echo"/>
+	<oaf_attribute name="description-sr" type="string" value="Бонобо творница Echo сервера"/>
+	<oaf_attribute name="description-sr@latin" type="string" value="Bonobo tvornica Echo servera"/>
+	<oaf_attribute name="description-sv" type="string" value="Fabrik för Bonobo-ekoserver"/>
+	<oaf_attribute name="description-ta" type="string" value="Bonobo Echo சேவையக தொழிற்சாலை"/>
+	<oaf_attribute name="description-te" type="string" value="బోనోబో Echo సేవిక ఫాక్టరి"/>
+	<oaf_attribute name="description-th" type="string" value="โรงงานผู้ให้บริการ Echo แบบ Bonobo"/>
+	<oaf_attribute name="description-tr" type="string" value="Bonobo Echo sunucu üreticisi"/>
+	<oaf_attribute name="description-ug" type="string" value="Bonobo Echo مۇلازىمېتىر زاۋۇتى"/>
+	<oaf_attribute name="description-uk" type="string" value="Фабрика серверів відлуння Bonobo"/>
+	<oaf_attribute name="description-vi" type="string" value="Bộ tạo trình phục vụ Vọng Bonobo"/>
+	<oaf_attribute name="description-xh" type="string" value="Ifektri yeBonobo Echo server"/>
+	<oaf_attribute name="description-yi" type="string" value="באָנאָבאָ װידערקול־סערװירער פֿאַבריק"/>
+	<oaf_attribute name="description-zh_CN" type="string" value="Bonobo Echo server factory"/>
+	<oaf_attribute name="description-zh_HK" type="string" value="Bonobo Echo 伺服器工廠"/>
+	<oaf_attribute name="description-zh_TW" type="string" value="Bonobo Echo 伺服器工廠"/>
+</oaf_server>
+
+<oaf_server ubuntu-gettext-domain="icecream" iid="OAFIID:Bonobo_Sample_Echo" type="factory" 
+	location="OAFIID:Bonobo_Sample_Echo_Factory">
+	<oaf_attribute name="repo_ids" type="stringv">
+		<item value="IDL:Demo/Echo:1.0"/>
+	</oaf_attribute>
+	<oaf_attribute name="name" type="string" value="Echo component"/>
+	<oaf_attribute name="name-ar" type="string" value="مكون صدى"/>
+	<oaf_attribute name="name-as" type="string" value="Echo&apos;ৰ বস্তু"/>
+	<oaf_attribute name="name-ast" type="string" value="Componente eco"/>
+	<oaf_attribute name="name-az" type="string" value="Əks-səda hissəsi"/>
+	<oaf_attribute name="name-be" type="string" value="Кампанэнт Echo"/>
+	<oaf_attribute name="name-bg" type="string" value="Компонент „Ехо“"/>
+	<oaf_attribute name="name-bn" type="string" value="ইকোর কম্পোনেন্ট"/>
+	<oaf_attribute name="name-bn_IN" type="string" value="Echo&apos;র বস্তু"/>
+	<oaf_attribute name="name-br" type="string" value="Elfenn Echo"/>
+	<oaf_attribute name="name-bs" type="string" value="Echo komponenta"/>
+	<oaf_attribute name="name-ca" type="string" value="Component d&apos;eco"/>
+	<oaf_attribute name="name-ca@valencia" type="string" value="Component d&apos;eco"/>
+	<oaf_attribute name="name-cs" type="string" value="Komponenta Echo"/>
+	<oaf_attribute name="name-cy" type="string" value="cydran Echo"/>
+	<oaf_attribute name="name-da" type="string" value="Ekkokomponent"/>
+	<oaf_attribute name="name-de" type="string" value="Echo-Komponente"/>
+	<oaf_attribute name="name-dz" type="string" value="བྲག་ཅའི་ཆ་ཤས།"/>
+	<oaf_attribute name="name-el" type="string" value="Συστατικό Ηχούς"/>
+	<oaf_attribute name="name-en@shaw" type="string" value="𐑧𐑒𐑴 𐑒𐑩𐑥𐑐𐑴𐑯𐑩𐑯𐑑"/>
+	<oaf_attribute name="name-en_CA" type="string" value="Echo component"/>
+	<oaf_attribute name="name-en_GB" type="string" value="Echo component"/>
+	<oaf_attribute name="name-eo" type="string" value="Echo-a komponanto"/>
+	<oaf_attribute name="name-es" type="string" value="Componente eco"/>
+	<oaf_attribute name="name-et" type="string" value="Kaja komponent"/>
+	<oaf_attribute name="name-eu" type="string" value="Echo osagaia"/>
+	<oaf_attribute name="name-fi" type="string" value="Kaikukomponentti"/>
+	<oaf_attribute name="name-fr" type="string" value="Composant Echo"/>
+	<oaf_attribute name="name-gl" type="string" value="Compoñente Echo"/>
+	<oaf_attribute name="name-gu" type="string" value="ઈકોના ભાગો"/>
+	<oaf_attribute name="name-he" type="string" value="Echo component"/>
+	<oaf_attribute name="name-hi" type="string" value="इको अवयव"/>
+	<oaf_attribute name="name-hr" type="string" value="Echo komponenta"/>
+	<oaf_attribute name="name-hu" type="string" value="Echo komponens"/>
+	<oaf_attribute name="name-hy" type="string" value="Echo բաղադրիչ"/>
+	<oaf_attribute name="name-id" type="string" value="Komponen Echo"/>
+	<oaf_attribute name="name-is" type="string" value="Echo íhlutur"/>
+	<oaf_attribute name="name-it" type="string" value="Componente Echo"/>
+	<oaf_attribute name="name-ja" type="string" value="Echo コンポーネント"/>
+	<oaf_attribute name="name-ka" type="string" value="ექოს კომპონენტი"/>
+	<oaf_attribute name="name-kn" type="string" value="Echo ಘಟಕ"/>
+	<oaf_attribute name="name-ko" type="string" value="메아리 컴포넌트"/>
+	<oaf_attribute name="name-li" type="string" value="Echo komponènt"/>
+	<oaf_attribute name="name-lt" type="string" value="Aido komponentas"/>
+	<oaf_attribute name="name-lv" type="string" value="Echo komponente"/>
+	<oaf_attribute name="name-mai" type="string" value="इको अवयव"/>
+	<oaf_attribute name="name-mg" type="string" value="Singan&apos;ny Echo"/>
+	<oaf_attribute name="name-mk" type="string" value="Ехо компонента"/>
+	<oaf_attribute name="name-ml" type="string" value="Echo ഘടകം"/>
+	<oaf_attribute name="name-mn" type="string" value="Echo-бүрэлдхүүн"/>
+	<oaf_attribute name="name-mr" type="string" value="Echo भाग"/>
+	<oaf_attribute name="name-ms" type="string" value="Komponen Echo"/>
+	<oaf_attribute name="name-nb" type="string" value="Ekko-komponent"/>
+	<oaf_attribute name="name-ne" type="string" value="प्रतिध्वनि अवयव"/>
+	<oaf_attribute name="name-nl" type="string" value="Echo component"/>
+	<oaf_attribute name="name-nn" type="string" value="Ekkokomponent"/>
+	<oaf_attribute name="name-or" type="string" value="ପ୍ରତିଧ୍ବନି ଯନ୍ତ୍ରାଂଶ"/>
+	<oaf_attribute name="name-pa" type="string" value="ਈਚੋ ਭਾਗ"/>
+	<oaf_attribute name="name-pl" type="string" value="Komponent echo"/>
+	<oaf_attribute name="name-pt" type="string" value="Componente Echo"/>
+	<oaf_attribute name="name-pt_BR" type="string" value="Componente do Echo"/>
+	<oaf_attribute name="name-ro" type="string" value="Componentă Echo"/>
+	<oaf_attribute name="name-ru" type="string" value="Компонент Эхо"/>
+	<oaf_attribute name="name-sk" type="string" value="Komponent echo"/>
+	<oaf_attribute name="name-sl" type="string" value="Sestavina odmeva"/>
+	<oaf_attribute name="name-sq" type="string" value="Përbërësi Echo"/>
+	<oaf_attribute name="name-sr" type="string" value="Echo компонента"/>
+	<oaf_attribute name="name-sr@latin" type="string" value="Echo komponenta"/>
+	<oaf_attribute name="name-sv" type="string" value="Ekokomponent"/>
+	<oaf_attribute name="name-ta" type="string" value="எதிரளிப்பு கூறு"/>
+	<oaf_attribute name="name-te" type="string" value="Echo మూలకము"/>
+	<oaf_attribute name="name-th" type="string" value="องค์ประกอบ Echo"/>
+	<oaf_attribute name="name-tr" type="string" value="Echo içeriği"/>
+	<oaf_attribute name="name-ug" type="string" value="Echo بۆلەك"/>
+	<oaf_attribute name="name-uk" type="string" value="Компонент відлуння"/>
+	<oaf_attribute name="name-vi" type="string" value="Thành phần vọng"/>
+	<oaf_attribute name="name-xh" type="string" value="Ilungu lentlokoma"/>
+	<oaf_attribute name="name-yi" type="string" value="װידערקול־קאָמפּאָנענט"/>
+	<oaf_attribute name="name-zh_CN" type="string" value="Echo 部件"/>
+	<oaf_attribute name="name-zh_HK" type="string" value="Echo 元件"/>
+	<oaf_attribute name="name-zh_TW" type="string" value="Echo 元件"/>
+	<oaf_attribute name="description" type="string" value="Bonobo Echo server sample program"/>
+	<oaf_attribute name="description-ar" type="string" value="برنامج مثالي لخادوم صدى بونوبو"/>
+	<oaf_attribute name="description-as" type="string" value="Bonobo Echo সেৱকৰ নমুনা প্ৰোগ্ৰাম"/>
+	<oaf_attribute name="description-ast" type="string" value="Programa d&apos;exemplu del sirvidor Bonobo Echo (eco)"/>
+	<oaf_attribute name="description-az" type="string" value="Bonobo Əks-səda nünumə proqram"/>
+	<oaf_attribute name="description-be" type="string" value="Узор праграмы паслужніку Bonobo Echo"/>
+	<oaf_attribute name="description-bg" type="string" value="Примерна програма „Ехо“ на Bonobo"/>
+	<oaf_attribute name="description-bn" type="string" value="বোনোবো ইকো সার্ভারের নমুনা প্রোগ্রাম"/>
+	<oaf_attribute name="description-bn_IN" type="string" value="Bonobo Echo সার্ভারের নমুনা প্রোগ্রাম"/>
+	<oaf_attribute name="description-br" type="string" value="Rolladur skouer Bonobo Echo server"/>
+	<oaf_attribute name="description-bs" type="string" value="Uzorak programa Bonobo Echo servera"/>
+	<oaf_attribute name="description-ca" type="string" value="Programa d&apos;exemple de servidor d&apos;eco del Bonobo"/>
+	<oaf_attribute name="description-ca@valencia" type="string" value="Programa d&apos;exemple de servidor d&apos;eco del Bonobo"/>
+	<oaf_attribute name="description-cs" type="string" value="Server vzorového programu Bonobo Echo"/>
+	<oaf_attribute name="description-cy" type="string" value="rhaglen sampl gweinydd Echo Bonobo"/>
+	<oaf_attribute name="description-da" type="string" value="Bonobo-ekkoserver-eksempelprogram"/>
+	<oaf_attribute name="description-de" type="string" value="Bonobo-Echo-Server-Beispielprogramm"/>
+	<oaf_attribute name="description-dz" type="string" value="བཱོ་ནོ་བཱོ་ བྲག་ཅ་སར་བར་གྱི་ དཔེ་ཚད་ལས་རིམ།"/>
+	<oaf_attribute name="description-el" type="string" value="Πρόγραμμα-δείγμα εξυπηρετητή Ηχούς Bonobo"/>
+	<oaf_attribute name="description-en@shaw" type="string" value="·𐑚𐑭𐑯𐑭𐑚𐑴 𐑧𐑒𐑴 𐑕𐑻𐑝𐑼 𐑕𐑭𐑥𐑐𐑩𐑤 𐑐𐑮𐑴𐑜𐑮𐑨𐑥"/>
+	<oaf_attribute name="description-en_CA" type="string" value="Bonobo Echo server sample program"/>
+	<oaf_attribute name="description-en_GB" type="string" value="Bonobo Echo server sample program"/>
+	<oaf_attribute name="description-eo" type="string" value="Ekzemplo-programo de Bonobo-Echo-servilo"/>
+	<oaf_attribute name="description-es" type="string" value="Programa de ejemplo del servidor Bonobo Echo (eco)"/>
+	<oaf_attribute name="description-et" type="string" value="Bonobo Kajaserveri näidisprogramm"/>
+	<oaf_attribute name="description-eu" type="string" value="Bonobo Echo zerbitzariaren programa-lagina"/>
+	<oaf_attribute name="description-fi" type="string" value="Bonobo-kaikupalvelinesimerkkiohjelma"/>
+	<oaf_attribute name="description-fr" type="string" value="Programme d&apos;exemple du serveur Bonobo Echo"/>
+	<oaf_attribute name="description-gl" type="string" value="Programa de mostra do servidor do Bonobo Echo"/>
+	<oaf_attribute name="description-gu" type="string" value="બોનાેબો ઈકો સર્વર નમૂનો કાર્યક્રમ"/>
+	<oaf_attribute name="description-he" type="string" value="Bonobo Echo server sample program"/>
+	<oaf_attribute name="description-hi" type="string" value="बोनोबो इको सर्वर नमूना प्रोग्राम"/>
+	<oaf_attribute name="description-hr" type="string" value="Primjer programa poslužitelja Bonobo Echo-a"/>
+	<oaf_attribute name="description-hu" type="string" value="Bonobo Echo-kiszolgáló példaprogram"/>
+	<oaf_attribute name="description-hy" type="string" value="Bonobo Echo համակարգի ծրագրի օրինակ"/>
+	<oaf_attribute name="description-id" type="string" value="Program contoh untuk server Echo Bonobo"/>
+	<oaf_attribute name="description-is" type="string" value="Bonobo Echo sýnishorn"/>
+	<oaf_attribute name="description-it" type="string" value="Programma di esempio per il server Bonobo Echo"/>
+	<oaf_attribute name="description-ja" type="string" value="Bonobo Echo サーバ・サンプル・プログラム"/>
+	<oaf_attribute name="description-ka" type="string" value="Bonobo ექო სერვერის სანიმუშო პროგრამა"/>
+	<oaf_attribute name="description-kn" type="string" value="Bonobo Echo ಪರಿಚಾರಕದ ನಮೂನೆ ಪ್ರೋಗ್ರಾಮ್"/>
+	<oaf_attribute name="description-ko" type="string" value="보노보 메아리 서버 예제 프로그램"/>
+	<oaf_attribute name="description-li" type="string" value="Bonobo Echo-server veurbildprogram"/>
+	<oaf_attribute name="description-lt" type="string" value="Bonobo Aido serverio pavyzdinė programa"/>
+	<oaf_attribute name="description-lv" type="string" value="Bonobo Echo servera parauga programma"/>
+	<oaf_attribute name="description-mai" type="string" value="बोनोबो इको सर्वर नमूना प्रोग्राम"/>
+	<oaf_attribute name="description-mg" type="string" value="Santionan-drindranasan&apos;ny mpizaran&apos;ny Bonobo Echo"/>
+	<oaf_attribute name="description-mk" type="string" value="Bonobo ехо сервер пример програма"/>
+	<oaf_attribute name="description-ml" type="string" value="Bonobo Echo സര്‍വര്‍ ഉദാഹരണ പ്രോഗ്രാം"/>
+	<oaf_attribute name="description-mn" type="string" value="Bonobo Echo-сервер жишээ программ"/>
+	<oaf_attribute name="description-mr" type="string" value="Bonobo Echo सर्वर चाचणीजोगी कार्यक्रम"/>
+	<oaf_attribute name="description-ms" type="string" value="Contoh program pelayan Echo Bonobo"/>
+	<oaf_attribute name="description-nb" type="string" value="Eksempelprogram for Bonobo ekkotjener"/>
+	<oaf_attribute name="description-ne" type="string" value="बोनोबो प्रतिध्वनि सर्भर नमूना कार्यक्रम"/>
+	<oaf_attribute name="description-nl" type="string" value="Bonobo Echo-server voorbeeldprogramma"/>
+	<oaf_attribute name="description-nn" type="string" value="Bonobo ekkotenar eksempelprogram"/>
+	<oaf_attribute name="description-or" type="string" value="ବନୋବୋ ପ୍ରତିଧ୍ବନି ସେବକ କାରିକାର ନମୁନା"/>
+	<oaf_attribute name="description-pa" type="string" value="ਬੋਨਬੋ ਈਚੋ ਸਰਵਰ ਸਧਾਰਨ ਪਰੋਗਰਾਮ"/>
+	<oaf_attribute name="description-pl" type="string" value="Przykładowy program serwera Bonobo Echo"/>
+	<oaf_attribute name="description-pt" type="string" value="Aplicação de exemplo de servidor Echo Bonobo"/>
+	<oaf_attribute name="description-pt_BR" type="string" value="Programa exemplo do servidor Bonobo Echo"/>
+	<oaf_attribute name="description-ro" type="string" value="Program-exemplu server Bonobo Echo"/>
+	<oaf_attribute name="description-ru" type="string" value="Образец программы эхо-сервера Bonobo"/>
+	<oaf_attribute name="description-sk" type="string" value="Ukážkový program bonobo servera echo"/>
+	<oaf_attribute name="description-sl" type="string" value="Preizkusni program bonobo strežnika odmevov"/>
+	<oaf_attribute name="description-sq" type="string" value="Program si shembull për server-in Bonobo Echo"/>
+	<oaf_attribute name="description-sr" type="string" value="Пример Бонобо Echo сервер програма"/>
+	<oaf_attribute name="description-sr@latin" type="string" value="Primer Bonobo Echo server programa"/>
+	<oaf_attribute name="description-sv" type="string" value="Testprogram för Bonobo-ekoserver"/>
+	<oaf_attribute name="description-ta" type="string" value="Bonobo Echo சேவையகத்தின் மாதிரி நிரல்"/>
+	<oaf_attribute name="description-te" type="string" value="బోనోబో Echo సేవిక మాదిరి ప్రోగ్రామ్"/>
+	<oaf_attribute name="description-th" type="string" value="โปรแกรมตัวอย่างผู้ให้บริการ Echo แบบ Bonobo"/>
+	<oaf_attribute name="description-tr" type="string" value="Bonobo Echo sunucu örnek programı"/>
+	<oaf_attribute name="description-ug" type="string" value="Bonobo Echo مۇلازىمېتىر ئۈلگە پروگراممىسى"/>
+	<oaf_attribute name="description-uk" type="string" value="Зразок програми сервера відлуння"/>
+	<oaf_attribute name="description-vi" type="string" value="Chương trình mẫu trình phục vụ Vọng Bonobo"/>
+	<oaf_attribute name="description-xh" type="string" value="Umzekelo wenkqubo yeBonobo Echo server"/>
+	<oaf_attribute name="description-yi" type="string" value="באָנאָבאָ װידערקול־סערװירער מוסטער־פּראָגראַם"/>
+	<oaf_attribute name="description-zh_CN" type="string" value="Bonobo Echo server 示例程序"/>
+	<oaf_attribute name="description-zh_HK" type="string" value="Bonobo Echo 伺服器樣本程式"/>
+	<oaf_attribute name="description-zh_TW" type="string" value="Bonobo Echo 伺服器樣本程式"/>
+</oaf_server>
+
+</oaf_info>

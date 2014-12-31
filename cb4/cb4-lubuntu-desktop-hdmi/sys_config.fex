@@ -54,7 +54,6 @@ dldo2_vol                  = 1003000
 eldo3_vol                  = 1001800
 aldo1_vol                  = 1003000
 aldo3_vol                  = 1003000
-gpio1_vol                  = 0002500
 
 [slave_power_sply]
 dcdca_vol                  = 1000900
@@ -65,7 +64,7 @@ dcdce_vol                  = 1002100
 aldo1_vol                  = 1003000
 bldo1_vol                  = 1001800
 bldo2_vol                  = 1001800
-cldo1_vol                  = 0003000
+cldo1_vol                  = 0
 
 [gpio_bias]
 pa_bias         = "axp809:gpio1:2500"
@@ -186,7 +185,6 @@ dram_tpr13      = 0x23
 ;------------------------------------------------------------------------------;
 ;   配置选项：                                                                 ;
 ;   gmac_used  ---  1: gmac used, 0: not used                                  ;
-;   gmac_powerx --  A[:B] A: axp channel, B: voltage value                     ;
 ;------------------------------------------------------------------------------;
 ;         MII  GMII  RGMII        MII  GMII  RGMII        MII  GMII  RGMII     ;
 ;PA00~03  *     *      *    PA10        *      *    PA20   *    *      *       ;
@@ -217,8 +215,6 @@ gmac_txerr         = port:PA14<2><default><3><default>
 gmac_col           = port:PA15<2><default><3><default>
 gmac_mdc           = port:PA16<2><default><3><default>
 gmac_mdio          = port:PA17<2><default><3><default>
-gmac_power1        = "axp15_cldo1:3000000"
-gmac_power2        = "axp22_ldoio1"
 
 ;---------------------------------------------------------------------------------------------------------
 ; wakeup_src_para:
@@ -562,7 +558,7 @@ nand1_ndqs          = port:PC16<2><default><default><default>
 disp_composer_mode       = 1
 
 disp_init_enable         = 1
-disp_mode                = 0
+disp_mode                = 1
 
 screen0_output_type      = 1
 screen0_output_mode      = 1
@@ -622,33 +618,31 @@ lcd1_hue                 = 50
 ;lcdgamma4iep:         Smart Backlight parameter, lcd gamma vale * 10;
 ;                      decrease it while lcd is not bright enough; increase while lcd is too bright
 ;smart_color           90:normal lcd screen 65:retina lcd screen(9.7inch)
-
-;vga_used              if need vga,lcd_used must be 1,in that case,vga_used is 1 means output to vga
 ;----------------------------------------------------------------------------------
 [lcd0_para]
-lcd_used            = 1
-vga_used            = 1
+lcd_used            = 0
+
 lcd_driver_name     = "default_lcd"
 lcd_if              = 0
-lcd_x               = 1024
-lcd_y               = 768
+lcd_x               = 1280
+lcd_y               = 800
 lcd_width           = 150
 lcd_height          = 94
-lcd_dclk_freq       = 65
-lcd_pwm_used        = 0
+lcd_dclk_freq       = 70
+lcd_pwm_used        = 1
 lcd_pwm_ch          = 0
 lcd_pwm_freq        = 50000
-lcd_pwm_pol         = 0
-lcd_hbp             = 296
-lcd_ht              = 1344
-lcd_hspw            = 136
-lcd_vbp             = 35
-lcd_vt              = 806
-lcd_vspw            = 6
+lcd_pwm_pol         = 1
+lcd_hbp             = 20
+lcd_ht              = 1418
+lcd_hspw            = 10
+lcd_vbp             = 10
+lcd_vt              = 814
+lcd_vspw            = 5
 lcd_lvds_if         = 0
-lcd_lvds_colordepth = 0
+lcd_lvds_colordepth = 1
 lcd_lvds_mode       = 0
-lcd_frm             = 0
+lcd_frm             = 1
 lcd_hv_clk_phase    = 0
 lcd_hv_sync_polarity = 0
 lcd_gamma_en        = 0
@@ -659,37 +653,17 @@ deu_mode            = 0
 lcdgamma4iep        = 22
 smart_color        = 90
 
-;lcd_bl_en           = port:PA6<1><0><default><1>
+lcd_bl_en           = port:PA6<1><0><default><1>
 lcd_power           = port:power2<1><0><default><1>
 
-lcdd0               = port:PD00<2><0><default><default>
-lcdd1               = port:PD01<2><0><default><default>
-lcdd2               = port:PD02<2><0><default><default>
-lcdd3               = port:PD03<2><0><default><default>
-lcdd4               = port:PD04<2><0><default><default>
-lcdd5               = port:PD05<2><0><default><default>
-lcdd6               = port:PD06<2><0><default><default>
-lcdd7               = port:PD07<2><0><default><default>
-lcdd8               = port:PD08<2><0><default><default>
-lcdd9               = port:PD09<2><0><default><default>
-lcdd10              = port:PD10<2><0><default><default>
-lcdd11              = port:PD11<2><0><default><default>
-lcdd12              = port:PD12<2><0><default><default>
-lcdd13              = port:PD13<2><0><default><default>
-lcdd14              = port:PD14<2><0><default><default>
-lcdd15              = port:PD15<2><0><default><default>
-lcdd16              = port:PD16<2><0><default><default>
-lcdd17              = port:PD17<2><0><default><default>
-lcdd18              = port:PD18<2><0><default><default>
-lcdd19              = port:PD19<2><0><default><default>
-lcdd20              = port:PD20<2><0><default><default>
-lcdd21              = port:PD21<2><0><default><default>
-lcdd22              = port:PD22<2><0><default><default>
-lcdd23              = port:PD23<2><0><default><default>
-lcdclk              = port:PD24<2><0><default><default>
-lcdde               = port:PD25<2><0><default><default>
-lcdhsync            = port:PD26<2><0><3><default>
-lcdvsync            = port:PD27<2><0><3><default>
+lcdd0               = port:PD00<3><0><default><default>
+lcdd1               = port:PD01<3><0><default><default>
+lcdd2               = port:PD02<3><0><default><default>
+lcdd3               = port:PD03<3><0><default><default>
+lcdd4               = port:PD04<3><0><default><default>
+lcdd5               = port:PD05<3><0><default><default>
+lcdd6               = port:PD06<3><0><default><default>
+lcdd7               = port:PD07<3><0><default><default>
 
 ;----------------------------------------------------------------------------------
 ;hdmi configuration

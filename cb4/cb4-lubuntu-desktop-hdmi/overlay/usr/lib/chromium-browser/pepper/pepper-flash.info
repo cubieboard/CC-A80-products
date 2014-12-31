@@ -1,0 +1,4 @@
+FILE_NAME="${LIBDIR}/pepper/libpepflashplayer.so"
+VERSION="11.5.31.105"
+PLUGIN_NAME="Pepper Flash Player"
+PLUGIN_PARAMETERS="--ppapi-flash-args=enable_hw_video_decode=0,enable_stagevideo_auto=0,enable_trace_to_console=0"
