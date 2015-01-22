@@ -1,0 +1,18 @@
+# interfaces(5) file used by ifup(8) and ifdown(8)
+auto lo eth0
+allow-hotplug eth0
+iface lo inet loopback
+iface eth0 inet dhcp
+
+
+
+
+#"your-ssid-here" and "your-passwd-here" should been replase with yours and remove the annotation 
+
+#auto wlan0
+#iface wlan0 inet dhcp
+#pre-up ip link set wlan0 up
+#pre-up iwconfig wlan0 essid your-ssid-here
+#wpa-ssid your-ssid-here
+#wpa-psk your-passwd-here
+
