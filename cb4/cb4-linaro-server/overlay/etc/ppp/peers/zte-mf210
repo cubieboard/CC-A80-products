@@ -1,0 +1,12 @@
+/dev/ttyUSB2
+115200
+crtscts
+connect '/usr/sbin/chat -v -f /etc/ppp/chat/wcdma-connect-chat'
+debug
+nodetach
+ipcp-accept-local
+ipcp-accept-remote
+defaultroute
+usepeerdns
+# end of zte-mf210
+

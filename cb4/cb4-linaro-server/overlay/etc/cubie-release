@@ -1,0 +1,9 @@
+This rootfs is based on linaro-trusty-server-20141024-684.tar.gz from linaro.org
+
+Update log 
+==========
+
+Support ZTE MF210 3G module 
+And relased linaro-server v1.2
+---
+20150415

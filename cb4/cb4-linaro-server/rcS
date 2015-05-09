@@ -1,0 +1,9 @@
+#! /bin/sh
+#
+# rcS
+#
+# Call all S??* scripts in /etc/rcS.d/ in numerical/alphabetical order
+#
+/etc/init.d/firstrun
+exec /etc/init.d/rc S
+

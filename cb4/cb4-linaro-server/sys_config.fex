@@ -197,10 +197,9 @@ dram_tpr13      = 0x23
 ;   PA08  *     *           PA18        *           PA25        *      *       ;
 ;   PA09  *     *      *    PA19   *    *      *  PA26~27  *    *      *       ;
 ;------------------------------------------------------------------------------;
-
 [gmac0]
 gmac_used          = 1
-gmac_mode          = "RGMII"
+gmac_mode          = "RGMII" 
 gmac_rxd3          = port:PA00<2><default><3><default>
 gmac_rxd2          = port:PA01<2><default><3><default>
 gmac_rxd1          = port:PA02<2><default><3><default>
@@ -337,6 +336,8 @@ uart_type       = 2
 uart_tx         = port:PE04<4><1><default><default>
 uart_rx         = port:PE05<4><1><default><default>
 
+
+
 ;----------------------------------------------------------------------------------
 ;SPI controller configuration
 ;----------------------------------------------------------------------------------
@@ -449,7 +450,7 @@ tkey_int            =
 [motor_para]
 motor_used          = 0
 motor_shake         = 0
-motor_ldo           = "axp22_ldoio0"
+motor_ldo           = axp22_ldoio0
 motor_ldo_voltage   = 3300
 
 ;----------------------------------------------------------------------------------
@@ -1144,7 +1145,6 @@ compass_int         =
 ;--------------------------------------------------------------------------------
 ;led
 ;--------------------------------------------------------------------------------
-
 [leds_para]
 leds_used = 1
 leds_num = 2
@@ -1156,7 +1156,6 @@ leds_pin_2 = port:PH17<1><default><default><0>
 leds_name_2 = "green:ph17:led2"
 leds_default_2 = 0
 leds_trigger_2 = "cpu0"
-
 
 ;--------------------------------------------------------------------------------
 ;blue tooth

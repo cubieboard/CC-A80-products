@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ -f /root/firstrun ]; then
+	echo firstup setup begin
+	rm /root/firstrun
+	echo firstup setup done
+
+fi
+
+

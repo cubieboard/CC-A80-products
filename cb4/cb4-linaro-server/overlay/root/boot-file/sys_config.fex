@@ -54,7 +54,6 @@ dldo2_vol                  = 1003000
 eldo3_vol                  = 1001800
 aldo1_vol                  = 1003000
 aldo3_vol                  = 1003000
-gpio1_vol                  = 0002500
 
 [slave_power_sply]
 dcdca_vol                  = 1000900
@@ -65,7 +64,7 @@ dcdce_vol                  = 1002100
 aldo1_vol                  = 1003000
 bldo1_vol                  = 1001800
 bldo2_vol                  = 1001800
-cldo1_vol                  = 0003000
+cldo1_vol                  = 0
 
 [gpio_bias]
 pa_bias         = "axp809:gpio1:2500"
@@ -142,7 +141,7 @@ pll4            = 300
 pll6            = 600
 pll8            = 297
 pll9            = 297
-pll10           = 2376
+pll10			= 2376
 
 ;*****************************************************************************
 ;sdram configuration
@@ -186,7 +185,6 @@ dram_tpr13      = 0x23
 ;------------------------------------------------------------------------------;
 ;   配置选项：                                                                 ;
 ;   gmac_used  ---  1: gmac used, 0: not used                                  ;
-;   gmac_powerx --  A[:B] A: axp channel, B: voltage value                     ;
 ;------------------------------------------------------------------------------;
 ;         MII  GMII  RGMII        MII  GMII  RGMII        MII  GMII  RGMII     ;
 ;PA00~03  *     *      *    PA10        *      *    PA20   *    *      *       ;
@@ -197,10 +195,8 @@ dram_tpr13      = 0x23
 ;   PA08  *     *           PA18        *           PA25        *      *       ;
 ;   PA09  *     *      *    PA19   *    *      *  PA26~27  *    *      *       ;
 ;------------------------------------------------------------------------------;
-
 [gmac0]
 gmac_used          = 1
-gmac_mode          = "RGMII"
 gmac_rxd3          = port:PA00<2><default><3><default>
 gmac_rxd2          = port:PA01<2><default><3><default>
 gmac_rxd1          = port:PA02<2><default><3><default>
@@ -219,8 +215,6 @@ gmac_txerr         = port:PA14<2><default><3><default>
 gmac_col           = port:PA15<2><default><3><default>
 gmac_mdc           = port:PA16<2><default><3><default>
 gmac_mdio          = port:PA17<2><default><3><default>
-gmac_power1        = "axp15_cldo1:3000000"
-gmac_power2        = "axp22_ldoio1"
 
 ;---------------------------------------------------------------------------------------------------------
 ; wakeup_src_para:
