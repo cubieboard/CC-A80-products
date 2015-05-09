@@ -2,7 +2,7 @@
 export CB_BOARD=cubieboard8
 export CB_KCONFIG=${CB_BOARD}_defconfig
 export CB_FLASH_TSD_ROOTFS_SIZE=25
-export CB_ROOTFS_IMAGE=${CB_ROOTFS_DIR}/linaro-14.04-desktop-20141219.tar.gz
+export CB_ROOTFS_IMAGE=${CB_ROOTFS_DIR}/linaro-desktop-trusty-cb4-14.04-v1.1.tar.gz
 export CB_ROOTFS_SIZE=1500
 export CB_FLASH_ROOTFS_IMAGE=${CB_ROOTFS_DIR}/card_flash_rootfs.tar.gz
 export CB_U_BOOT_SPL_BIN=${CB_PACKAGES_DIR}/bin/u-boot-spl.bin

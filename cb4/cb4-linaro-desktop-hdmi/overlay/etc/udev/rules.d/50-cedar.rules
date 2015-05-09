@@ -1,0 +1,4 @@
+KERNEL=="cedar_dev", MODE="0766"
+KERNEL=="ion", MODE="0766"
+~                                                                               
+~                                         

@@ -1,8 +1,0 @@
-prefix=/usr/local/pvr
-datarootdir=${prefix}/share
-datadir=${datarootdir}
-xkb_base=${datarootdir}/X11/xkb
-
-Name: XKeyboardConfig
-Description: X Keyboard configuration data
-Version: 2.5

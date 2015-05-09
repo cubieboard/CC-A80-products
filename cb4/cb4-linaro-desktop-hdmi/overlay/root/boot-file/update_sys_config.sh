@@ -1,12 +1,13 @@
 #!/bin/bash
 
+/bin/busybox unix2dos  sys_config.fex
 /bin/cubie-fex2bin sys_config.fex sys_config.bin
+/bin/busybox dos2unix  sys_config.fex
 /bin/cubie-uboot-spl u-boot-spl.bin sys_config.bin u-boot-spl_with_sys_config.bin
 sudo dd if=u-boot-spl_with_sys_config.bin of=/dev/mmcblk0 bs=1024 seek=8
 rm -rf u-boot-spl_with_sys_config.bin
 
 if [ $1 = "tfcard" ];then
-      
 
 	/bin/cubie-uboot u-boot-sun9iw1p1.bin sys_config.bin u-boot-sun9iw1p1_with_sys_config.bin
 	sudo dd if=u-boot-sun9iw1p1_with_sys_config.bin  of=/dev/mmcblk0   bs=1024 seek=19096

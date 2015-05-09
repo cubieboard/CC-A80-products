@@ -1,6 +1,0 @@
-sdkdir=/home/yuxyun/work/1.4@3064661-xorg/rogue/binary_sunxi_linux_xorg_release/target_armhf/usr/local/pvr/include/xorg
-
-Name: xorg-mouse
-Description: X.Org mouse input driver for non-evdev OS'es
-Version: 1.9.0
-Cflags: -I${sdkdir}
