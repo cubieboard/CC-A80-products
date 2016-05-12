@@ -40,9 +40,9 @@ case "$1" in
         ;;
 esac
 
-echo 2500000 > /sys/devices/platform/reg-22-cs-gpio1ldo/max_microvolts
-echo 2500000 > /sys/devices/platform/reg-22-cs-gpio1ldo/min_microvolts
-echo 3000000 > /sys/devices/platform/reg-15-cs-cldo1/max_microvolts
-echo 3000000 > /sys/devices/platform/reg-15-cs-cldo1/min_microvolts 
+#echo 2500000 > /sys/devices/platform/reg-22-cs-gpio1ldo/max_microvolts
+#echo 2500000 > /sys/devices/platform/reg-22-cs-gpio1ldo/min_microvolts
+#echo 3000000 > /sys/devices/platform/reg-15-cs-cldo1/max_microvolts
+#echo 3000000 > /sys/devices/platform/reg-15-cs-cldo1/min_microvolts 
 echo 1 > /sys/class/disp/disp/attr/lcd
-modprobe sunxi_gmac 
+#modprobe sunxi_gmac 

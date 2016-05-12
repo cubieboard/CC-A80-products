@@ -1,2 +1,2 @@
-KERNEL=="sd[a-z][0-9]",SUBSYSTEM=="block",ACTION=="add", RUN+="/bin/cubie-mount.sh %k"
-KERNEL=="mmcblk1p[0-9]",ACTION=="add", RUN+="/bin/cubie-mount.sh %k"
+#KERNEL=="sd[a-z][0-9]",SUBSYSTEM=="block",ACTION=="add", RUN+="/bin/cubie-mount.sh %k"
+#KERNEL=="mmcblk1p[0-9]",ACTION=="add", RUN+="/bin/cubie-mount.sh %k"

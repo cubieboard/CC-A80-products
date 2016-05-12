@@ -18,3 +18,18 @@ In order to prove the modification is effective ,you can change "heartbeat"to
 If select wrong parameter,can't boot the system after reboot,so should execute
 the script again with correct parameter.
 
+To switch vga  1024*768 display output :
+
+#cd /root/boot-file 
+#cp vga_sys_config.fex sys_config.fex
+#./update_sys_config.sh tfcard
+
+To switch hdmi 1080p60 display output :
+
+#cd /root/boot-file
+#cp hdmi_sys_config.fex sys_config.fex
+#./update_sys_config.sh tfcard
+
+
+
+
